@@ -44,6 +44,8 @@ description: Query the Statistics Estonia API (andmed.stat.ee) to discover table
 
 ## Examples
 
+The `examples` directory is intended for human consumption and shows the outputs of agent runs on a set of prompts. 
+
 ### Query data from API
 ```bash
 # Search for tables

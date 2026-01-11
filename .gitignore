@@ -1,0 +1,5 @@
+# Claude Code output logs (can be large)
+examples/*/claude_output.json
+examples/*/claude_stderr.log
+**/venv/
+**/.venv/
