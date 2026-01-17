@@ -4,6 +4,20 @@
 **Date Completed:** January 17, 2026
 **Analyses Conducted:** 5 independent empirical studies
 
+## Structure
+
+This comprehensive study includes:
+
+- **ANALYSIS.md** (this file): Executive summary with key findings and policy recommendations
+- **METHODOLOGY.md**: Research design, literature review, and data sources
+- **analysis_01/**: Consumer confidence vs economic indicators
+- **analysis_02/**: Tax policy impacts (includes visualizations and data exports)
+- **analysis_03/**: Retail sector performance trends
+- **analysis_04/**: Food price inflation drivers
+- **analysis_05/**: Vehicle market response to taxation
+
+Each sub-analysis directory contains its own detailed ANALYSIS.md report, data files, visualizations, and Python scripts.
+
 ---
 
 ## Context
