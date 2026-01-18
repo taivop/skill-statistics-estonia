@@ -8,7 +8,7 @@ This analysis examines the impact of Estonia's recent tax policy changes on econ
 - VAT revenue increased 31.3% post-increase, but retail sales grew only 2.0% in the same period
 - Retail sales peaked at 106.7 (index, 2021=100) in Q4 2021 and fell to 86.6 by Q1 2024 (-18.8%)
 - Motor vehicle tax generated €51.6M in June 2025, suggesting implementation despite market concerns
-- Four consecutive years of retail weakness: 53.3% of quarters since 2022 showed year-over-year declines
+- Three consecutive years of retail decline (2022-2024): 53.3% of quarters since 2022 showed year-over-year declines; 2025 shows tentative recovery (+3.37% YoY)
 - Strong positive correlation (0.66+) between retail sales and tax revenues, indicating consumption taxes depend on economic activity
 
 ## Data Sources
@@ -82,12 +82,12 @@ Key intervention points marked on time series:
 - Post-VAT increase average (2022Q3-2024Q4): 97.9
 - Change: +2.0% (statistically insignificant given volatility)
 
-**Four-Year Decline Validation:**
+**Three-Year Decline (2022-2024) Analysis:**
 - Quarters since 2022: 15
 - Quarters with YoY decline: 8
 - **Proportion: 53.3%**
 
-This validates Käo's claim of a prolonged retail sales decline, though "four consecutive years" is partially accurate—while the overall trend shows weakness since 2022, not every quarter showed declines.
+The data shows three consecutive years of annual volume decline (2022-2024), with tentative recovery in 2025 (+3.37% YoY). The characterization of prolonged retail weakness is accurate; however, 2025 shows signs of stabilization.
 
 **Latest Data (Q3 2025):**
 - Retail Sales Index: 99.2

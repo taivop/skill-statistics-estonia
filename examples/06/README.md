@@ -15,10 +15,10 @@ This study examines five economic paradoxes highlighted in Jüri Käo's ERR inte
 | **Tax Policy** | Revenue +31%, retail sales -19% |
 | **Food Inflation** | 29.75% peak (2x EU average) |
 | **Vehicle Market** | 51% collapse post-tax |
-| **Retail Sector** | 4-year volume decline |
+| **Retail Sector** | 3-year volume decline (2022-2024); 2025 recovery |
 | **Consumer Confidence** | Correlates strongly with real economic activity |
 
-**Conclusion:** All five of Käo's criticisms are empirically validated. The data reveals a severe disconnect between statistical abstractions and economic wellbeing.
+**Conclusion:** The data patterns are consistent with concerns raised, though causation is difficult to establish. Important caveats apply—see ANALYSIS.md for details on data limitations and alternative explanations.
 
 ## Directory Structure
 
@@ -119,11 +119,12 @@ See **PRESENTATION_README.md** for detailed export instructions.
 
 ## Methodological Approaches
 
-1. **Time Series Analysis** - Structural breaks (Ukraine war inflection point)
-2. **Correlation Analysis** - Consumer confidence vs macro indicators
-3. **Panel Data Framework** - Food inflation driver decomposition
-4. **Difference-in-Differences** - Tax policy impact assessment
-5. **Cross-Country Comparison** - Estonia vs Latvia/Lithuania
+1. **Time Series Analysis** - Descriptive analysis of trends and structural breaks
+2. **Correlation Analysis** - Estimated relationships based on economic literature
+3. **Event Study** - Tax policy impacts on retail sales and vehicle registrations
+4. **Comparative Analysis** - Estonia vs EU averages (estimated from ECB literature)
+
+**Note:** Formal econometric methods (DiD, VAR, RDD) were proposed but not implemented due to data limitations. See ANALYSIS.md for detailed methodology notes and caveats.
 
 ## Policy Implications
 

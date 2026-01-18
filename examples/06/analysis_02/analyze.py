@@ -201,11 +201,9 @@ line2 = ax1_twin.plot(merged_recent.index, merged_recent['..value added tax'] / 
                       color='#A23B72', linewidth=2.5, marker='s', markersize=4,
                       label='VAT Revenue')
 
-# Motor vehicle tax on right axis (if available)
-if '..motor vehicle tax' in merged_recent.columns:
-    line3 = ax1_twin.plot(merged_recent.index, merged_recent['..motor vehicle tax'],
-                          color='#F18F01', linewidth=2.5, marker='^', markersize=4,
-                          label='Motor Vehicle Tax')
+# Note: Motor vehicle tax excluded from this chart due to scale difference
+# It operates in millions while VAT is in billions - would distort visualization
+# See Analysis 5 for vehicle tax specific visualization
 
 # Formatting
 ax1.set_xlabel('Year', fontsize=12, fontweight='bold')
@@ -231,8 +229,6 @@ ax1_twin.grid(False)
 
 # Combine legends
 lines = line1 + line2
-if '..motor vehicle tax' in merged_recent.columns:
-    lines = lines + line3
 labels = [l.get_label() for l in lines]
 ax1.legend(lines, labels, loc='upper left', fontsize=10)
 
@@ -321,7 +317,7 @@ ax2.axvline(x=pd.Timestamp('2024-01-01'), color='red', linestyle='--', alpha=0.6
 
 # Annotate key periods
 ax2.text(pd.Timestamp('2023-01-01'), ax2.get_ylim()[0] * 0.9,
-         '4-year decline period', rotation=0, ha='center', fontsize=10,
+         '2022-2024 decline period', rotation=0, ha='center', fontsize=10,
          bbox=dict(boxstyle='round', facecolor='lightcoral', alpha=0.8))
 
 plt.tight_layout()
@@ -434,7 +430,7 @@ print(f"   VAT Revenue: €{latest['..value added tax']/1000:.1f}M")
 # 4-year decline validation
 decline_start = merged_recent[merged_recent.index >= '2022-01-01']
 consecutive_declines = (decline_start['Retail Sales YoY (%)'] < 0).sum()
-print(f"\n4. FOUR-YEAR DECLINE VALIDATION:")
+print(f"\n4. 2022-2024 DECLINE ANALYSIS:")
 print(f"   Quarters with YoY decline since 2022: {consecutive_declines} out of {len(decline_start)}")
 print(f"   Proportion: {consecutive_declines/len(decline_start)*100:.1f}%")
 

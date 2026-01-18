@@ -144,16 +144,18 @@ Climate effects likely contributed 0.5-1.0 percentage points to Estonia's 2022 f
 
 ## 3. Estonia vs EU Comparison
 
+> **Important Methodological Note:** The EU comparison data below is **estimated/interpolated** from ECB literature reference points, not actual Eurostat HICP monthly data. The ECB (2024) reports peak EU food inflation of 15% (March 2023) and 5.7% (January 2024). Values between these points are interpolated for visualization purposes. A rigorous comparison would require actual Eurostat HICP food category data for all EU member states.
+
 ### 3.1 Magnitude of Divergence
 
-| Metric | Estonia | EU Average | Estonia Premium |
-|--------|---------|------------|-----------------|
-| **Peak Inflation** | 29.75% (Dec 2022) | 15% (Mar 2023)* | +14.75pp (+98%) |
+| Metric | Estonia | EU Average (Estimated) | Estonia Premium |
+|--------|---------|------------------------|-----------------|
+| **Peak Inflation** | 29.75% (Dec 2022) | ~15% (Mar 2023)* | +14.75pp (+98%) |
 | **2022 Average** | 19.82% | ~12%* | +7.82pp (+65%) |
 | **2023 Average** | 16.33% | ~10%* | +6.33pp (+63%) |
 | **Jan 2024** | 5.03% | 5.7%* | -0.67pp (-12%) |
 
-*Based on ECB (2024) literature; EU average estimated from reported reference points.
+*EU averages are **estimates** interpolated from ECB (2024) literature reference points, not actual monthly Eurostat HICP data. True EU averages may differ.
 
 ### 3.2 Timeline of Convergence
 
@@ -427,7 +429,7 @@ The Estonian experience offers valuable lessons for other small, open, energy-de
 
 ### Visualizations
 1. **food_inflation_trend.png:** Estonia food vs. overall CPI (2020-2025)
-2. **estonia_vs_eu_comparison.png:** Estonia vs. EU average comparison
+2. **estonia_vs_eu_comparison.png:** Estonia vs. EU average comparison (**Note:** EU line is interpolated from ECB reference points, not actual Eurostat data)
 3. **commodity_group_comparison.png:** All commodity groups inflation trends
 
 ### Code Availability
