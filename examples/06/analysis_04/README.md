@@ -60,7 +60,7 @@ This directory contains a comprehensive analysis of Estonia's food price inflati
 To reproduce the analysis:
 
 ```bash
-cd /home/user/skill-statistics-estonia/analysis_04
+cd examples/06/analysis_04
 python3 analyze_food_inflation.py
 ```
 

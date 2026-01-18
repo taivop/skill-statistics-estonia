@@ -227,35 +227,35 @@ Jüri Käo (Director of the Estonian Institute of Economic Research) highlighted
 ## Analyses Deliverables
 
 ### Analysis 1: Consumer Confidence vs Economic Indicators
-**Location:** `/home/user/skill-statistics-estonia/analysis_01/`
+**Location:** `examples/06/analysis_01/`
 - Comprehensive ANALYSIS.md report
 - Correlation analysis (2010-2020)
 - Explanation of current confidence paradox
 - Policy implications
 
 ### Analysis 2: Tax Policy Impacts
-**Location:** `/home/user/skill-statistics-estonia/analysis_02/`
+**Location:** `examples/06/analysis_02/`
 - Full report with empirical findings
 - 3 visualizations (tax trends, retail response, correlation)
 - Data exports (CSV)
 - Python analysis scripts
 
 ### Analysis 3: Retail Sector Performance
-**Location:** `/home/user/skill-statistics-estonia/analysis_03/`
+**Location:** `examples/06/analysis_03/`
 - Four-year decline documentation
 - 4 visualizations (time series, seasonal, commodity breakdown)
 - Quarterly and annual decomposition
 - Pre-pandemic comparison
 
 ### Analysis 4: Food Price Inflation
-**Location:** `/home/user/skill-statistics-estonia/analysis_04/`
+**Location:** `examples/06/analysis_04/`
 - Estonia vs EU comparison
 - Driver decomposition (5 factors)
 - 3 visualizations (trends, comparison, commodity groups)
 - Policy recommendations (energy, competition, support)
 
 ### Analysis 5: Vehicle Market Response
-**Location:** `/home/user/skill-statistics-estonia/analysis_05/`
+**Location:** `examples/06/analysis_05/`
 - 51.1% market decline verified
 - Revenue vs volume trade-off
 - 4 visualizations (registrations, sales, revenue)
@@ -364,9 +364,9 @@ All analyses use:
 ## Repository Structure
 
 ```
-skill-statistics-estonia/
+examples/06/
+├── ANALYSIS.md             # This document (executive summary)
 ├── METHODOLOGY.md          # Full methodological framework
-├── EXECUTIVE_SUMMARY.md    # This document
 ├── analysis_01/            # Consumer confidence
 ├── analysis_02/            # Tax policy impacts
 ├── analysis_03/            # Retail sector performance

@@ -11,7 +11,7 @@ import urllib.request
 import pathlib
 
 BASE_URL = "https://andmed.stat.ee/api/v1/en/stat"
-OUT_DIR = pathlib.Path("/home/user/skill-statistics-estonia/analysis_03")
+OUT_DIR = pathlib.Path(__file__).parent
 
 
 def fetch_json(url, payload=None):

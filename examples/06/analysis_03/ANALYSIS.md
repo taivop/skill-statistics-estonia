@@ -476,7 +476,7 @@ Without addressing underlying structural weaknesses, Estonia faces risk of:
 2. **commodity_sales_by_year.csv** - Annual sales by commodity group (2005-2023)
 3. **commodity_yoy_change.csv** - Year-over-year percentage changes by commodity
 
-All data and analysis code available in `/home/user/skill-statistics-estonia/analysis_03/`
+All data and analysis code available in `examples/06/analysis_03/`
 
 ---
 
