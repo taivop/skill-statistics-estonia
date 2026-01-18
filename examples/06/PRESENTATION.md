@@ -62,55 +62,46 @@ style: |
 
 ## Five Empirical Analyses
 
-1. **Consumer Confidence** → Correlation with GDP, unemployment, retail sales
-2. **Tax Policy Impact** → VAT & vehicle tax effects on economic activity
-3. **Retail Sector Performance** → Four-year decline decomposition
-4. **Food Price Inflation** → Why Estonia had Europe's highest rates
-5. **Vehicle Market Response** → 50% collapse post-taxation
+1. **Consumer Confidence** vs macro indicators
+2. **Tax Policy Impact** on economic activity
+3. **Retail Sector** four-year decline
+4. **Food Price Inflation** drivers
+5. **Vehicle Market** collapse post-tax
 
-## Data Sources
-- Statistics Estonia (ESA 2010 standards)
-- ECB, CEPR, IMF research (2019-2026)
-- Cross-country comparisons
+**Data:** Statistics Estonia (ESA 2010) • ECB/CEPR/IMF research • Cross-country comparisons
 
 ---
 
 # **Finding 1: The Confidence Crisis**
 
-## Historical Relationships (2010-2020)
+## Strong Historical Correlations (2010-2020)
 
-| Indicator Pair | Correlation | Interpretation |
-|---|---|---|
-| Confidence ↔ GDP Growth | **+0.70** | Strong positive |
-| Confidence ↔ Unemployment | **-0.65** | Strong negative |
-| Confidence ↔ Retail Sales | **+0.75** | **Strongest link** |
+**Confidence ↔ GDP:** +0.70 | **Confidence ↔ Unemployment:** -0.65 | **Confidence ↔ Retail:** **+0.75**
 
-## Why Low Now? (2022-2026)
+## Why Confidence Remains Low (2022-2026)
 
-1. **Geopolitical anxiety** → Border state proximity to Ukraine war
-2. **Real income squeeze** → 12.8% avg inflation + tax increases
-3. **Psychological scarring** → 2022-2023 GDP contraction (-4%)
-4. **Communication gap** → Statistics vs. lived experience
+1. **Geopolitical anxiety** — Ukraine war proximity
+2. **Real income squeeze** — 12.8% inflation + tax hikes
+3. **Psychological scarring** — 2022-23 contraction (-4%)
+4. **Communication gap** — Statistics vs. lived reality
 
 ---
 
 # **Finding 2: The Tax Burden**
 
-## Policy Changes & Economic Response
+## Revenue Up, Activity Down
 
-### Tax Revenue Growth
-- **VAT revenue:** +31.3% (after July 2022 rate increase: 20% → 22%)
-- **Total tax revenue:** +27.6%
+**VAT increase (Jul 2022):** 20% → 22%
 
-### Economic Activity Response
-- **Retail sales volume:** **-18.8%** from peak
-- **53% of quarters** since 2022 showed YoY declines
+- VAT revenue: **+31.3%**
+- Total tax revenue: **+27.6%**
+- Retail sales volume: **-18.8%** from peak
+- 53% of quarters: YoY decline
 
 ## The Tradeoff
 
 **Revenue grew 7-8x faster than economic activity**
-- Fiscal targets achieved ✓
-- Consumer spending collapsed ✗
+→ Fiscal targets met, but consumer spending collapsed
 
 ---
 
@@ -118,20 +109,17 @@ style: |
 
 ## Four-Year Decline Confirmed
 
-| Year | Volume Index | YoY Change |
-|------|-------------|------------|
-| 2022 | 99.6 | -0.08% |
-| 2023 | 97.9 | **-1.69%** |
-| 2024 | 96.7 | **-1.34%** |
-| 2025 Q1-Q3 | 96.8 | +3.37% |
+**2022:** 99.6 (-0.08%) | **2023:** 97.9 **(-1.69%)** | **2024:** 96.7 **(-1.34%)** | **2025:** 96.8 (+3.37%)
 
 ## The Inflation Illusion
 
-- **Nominal sales:** +18.3% (2021-2023)
-- **Volume sales:** -2.1%
-- **All growth is price-driven → Consumers buying LESS**
+- Nominal sales: **+18.3%** (2021-2023)
+- Volume sales: **-2.1%**
+- **All growth is price-driven**
+- Automotive fuel: **-33.5%**
+- Manufactured goods: **-4.0%**
 
-**Automotive fuel:** -33.5% | **Manufactured goods:** -4.0%
+**Consumers are buying LESS, paying MORE**
 
 ---
 
@@ -139,18 +127,15 @@ style: |
 
 ## Estonia Had Europe's Highest Rates
 
-### The Numbers
-- **Peak:** **29.75%** (December 2022) vs. 15% EU average
-- **Crisis average:** 18.08% (2022-2023) vs. ~10% EU
-- **Current:** 6.93% (2025) — converging but still elevated
+**Peak:** **29.75%** (Dec 2022) vs. 15% EU | **Crisis avg:** 18.08% vs. ~10% EU | **Current:** 6.93%
 
-### Why Estonia?
+## Why Estonia Was an Outlier
 
-1. **No nuclear baseload** → Full Nord Pool exposure (€300-400/MWh vs. €50 normal)
-2. **60-70% import dependency** → Vulnerable to global shocks
-3. **Small economy** (1.3M pop) → Amplifies external shocks
-4. **High market concentration** → Top 3 chains control ~70%
-5. **Border state psychology** → Ukraine war proximity
+1. **No nuclear baseload** → €300-400/MWh vs. €50 normal
+2. **60-70% import dependency** → Vulnerable to shocks
+3. **Small economy** (1.3M) → Amplifies external impacts
+4. **Market concentration** → Top 3 chains control 70%
+5. **Border state anxiety** → Ukraine war proximity
 
 ---
 
@@ -158,63 +143,51 @@ style: |
 
 ## Registration Tax Impact (Jan 2025)
 
-### The Decline
-- **2024:** 50,424 registrations
-- **2025:** 24,665 registrations
-- **Decline:** **-51.1%** (not the claimed ~50%, but worse)
+**The Decline:** 50,424 (2024) → 24,665 (2025) = **-51.1%**
 
-### International Comparison
+## International Context
 
-| Study | Expected Impact | Estonia Reality |
-|-------|----------------|-----------------|
-| German study (2021) | -2% to -5% | **-51.1%** |
-| EU panel (2016) | "Lower than expected" | **10x worse** |
-
-### Fiscal Outcome
-- **Revenue:** ~€60M actual vs. €120M projected (**50% shortfall**)
-- **Net impact:** Likely negative after VAT losses
+- German study (2021): -2% to -5% expected
+- Estonia reality: **-51.1%** (**10x worse**)
+- Revenue: €60M vs. €120M projected (**50% shortfall**)
+- Net fiscal impact: **Likely negative** (VAT losses)
 
 ---
 
 # **The Big Picture**
 
-## Disconnect Between Messaging and Reality
+## Disconnect: Messaging vs. Reality
 
-### Government: "Economic Stabilization"
-- GDP near-stagnant (0.0-0.9% growth)
-- Tax revenues growing
-- Unemployment stable
+**Government says:** GDP stable • Tax revenues up • Unemployment stable
 
-### Citizens: "Daily Struggles"
-- **Real income crushed** (inflation + taxes)
-- **Retail volumes declining** (4 years straight)
-- **Cost of living crisis** (food, energy, transport)
-- **Geopolitical anxiety** (border state status)
+**Citizens experience:**
+- Real income crushed (inflation + taxes)
+- Retail volumes declining (4 years)
+- Cost of living crisis (food, energy, transport)
+- Geopolitical anxiety (border state)
 
-## Cumulative Burden
+## The Cumulative Burden
+
 VAT +2pp + Vehicle tax + 12.8% inflation = **Severe squeeze**
 
 ---
 
 # **Conclusions**
 
-## Jüri Käo Was Right
+## All Five Claims Empirically Validated
 
-✓ Consumer confidence critically low (validated by correlations)
-✓ Tax increases dampened activity (31% revenue, -19% retail)
-✓ Retail sales deteriorating (four-year decline confirmed)
-✓ Food inflation exceptionally high (2x EU average at peak)
-✓ Vehicle tax eliminated market (51% collapse)
+✓ Consumer confidence low | ✓ Tax policy dampened activity | ✓ Retail 4-year decline
+✓ Food inflation 2x EU average | ✓ Vehicle market -51%
 
-## Policy Implications
+## Key Policy Implications
 
 1. **Realign messaging** with lived experience
-2. **Address cost-of-living crisis** (food, energy)
+2. **Address cost-of-living** (food, energy priorities)
 3. **Recalibrate tax policy** (avoid pro-cyclical increases)
-4. **Energy independence** (nuclear/renewables investment)
-5. **Rebuild trust** through transparent communication
+4. **Energy independence** (nuclear/renewables)
+5. **Rebuild trust** through transparency
 
-**The data is clear: Optimistic statistics ≠ Economic wellbeing**
+**Optimistic statistics ≠ Economic wellbeing**
 
 ---
 
