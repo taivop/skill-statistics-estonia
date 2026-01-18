@@ -4,7 +4,6 @@ theme: default
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
-header: 'Estonia Economic Study | January 2026'
 footer: 'Data: Statistics Estonia | Analysis: Claude Sonnet 4.5'
 style: |
   section {
@@ -23,6 +22,9 @@ style: |
   }
   table {
     font-size: 22px;
+  }
+  footer {
+    text-align: right;
   }
 ---
 
@@ -193,22 +195,33 @@ VAT +2pp + Vehicle tax + 12.8% inflation = **Severe squeeze**
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
-<!-- _backgroundColor: #0051A5 -->
-<!-- _color: white -->
+<!-- _footer: '' -->
+
+<style scoped>
+section {
+  background-color: #0051A5;
+  color: white;
+}
+h1, h2 {
+  color: white;
+}
+a {
+  color: #FFD700;
+}
+</style>
 
 # **Thank You**
 
 ## Full Analysis Available
 
 **GitHub Repository:**
-`taivop/skill-statistics-estonia/examples/06`
+[taivop/skill-statistics-estonia/examples/06](https://github.com/taivop/skill-statistics-estonia/tree/main/examples/06)
 
 - 5 detailed sub-analyses
 - 14 data visualizations
 - Reproducible Python code
 - Comprehensive methodology & literature review
 
-**Contact:** [Your details]
 **Data:** Statistics Estonia (ESA 2010)
 **Literature:** ECB, CEPR, IMF, academic studies (2019-2026)
 
