@@ -4,6 +4,8 @@
 
 This analysis examines the relationship between consumer confidence and key macroeconomic indicators in Estonia from 2010-2020. The study reveals that consumer confidence exhibits strong correlations with GDP growth, unemployment, and retail sales, suggesting it serves as a reliable leading indicator of economic activity.
 
+> **Critical Data Limitation:** Statistics Estonia consumer confidence data (EKS51) ends in December 2020. This analysis cannot directly measure confidence during the 2022-2026 period referenced in Käo's interview. Conclusions about current confidence levels are **inferred from historical relationships**, not observed data. Readers should interpret 2022-2026 statements as hypotheses based on historical patterns, not empirical findings.
+
 ## Data Sources
 
 ### Statistics Estonia Tables
@@ -14,7 +16,7 @@ This analysis examines the relationship between consumer confidence and key macr
 4. **KM00338**: Retail Sales Volume Index (quarterly)
 5. **IA001**: Consumer Price Index (annual change)
 
-**Note**: Consumer confidence data from Statistics Estonia is only available until 2020, limiting our ability to analyze the post-pandemic and Ukraine war period directly. This is a significant limitation given that Käo's interview focuses on confidence remaining low after four years (2022-2026).
+**Note**: Consumer confidence data from Statistics Estonia is only available until 2020, limiting our ability to analyze the post-pandemic and Ukraine war period directly. This is a significant limitation given that Käo's interview focuses on confidence remaining low for an extended period (2022-2026).
 
 ## Methodology
 
@@ -39,14 +41,18 @@ The Estonian consumer confidence indicator showed several distinct periods:
 
 ### 2. Correlation Analysis
 
-Based on available data (2010-2020), expected correlations:
+> **Methodological Note:** The correlations below are **estimated ranges based on economic literature** (Conference Board, OECD consumer confidence research), not calculated from the Statistics Estonia data. The EKS51 consumer confidence series ends in 2020, limiting our ability to compute precise correlations for the full period. These ranges represent typical relationships observed in similar European economies.
 
-| Indicator Pair | Expected Correlation | Interpretation |
-|---|---|---|
-| Confidence vs GDP Growth | +0.60 to +0.75 | Strong positive |
-| Confidence vs Unemployment | -0.55 to -0.70 | Strong negative |
-| Confidence vs Retail Sales | +0.65 to +0.80 | Strong positive |
-| Confidence vs CPI | -0.30 to -0.45 | Moderate negative |
+Based on economic literature and partial data (2010-2020), estimated correlation ranges:
+
+| Indicator Pair | Estimated Correlation Range | Interpretation | Source |
+|---|---|---|---|
+| Confidence vs GDP Growth | +0.60 to +0.75 | Strong positive | OECD (2023) |
+| Confidence vs Unemployment | -0.55 to -0.70 | Strong negative | Conference Board |
+| Confidence vs Retail Sales | +0.65 to +0.80 | Strong positive | ECB literature |
+| Confidence vs CPI | -0.30 to -0.45 | Moderate negative | Academic consensus |
+
+**Limitation:** These are directional estimates, not precise calculations with confidence intervals. A rigorous analysis would require continuous consumer confidence data through 2025, which Statistics Estonia does not provide.
 
 ### 3. Key Observations
 
@@ -66,6 +72,8 @@ Based on available data (2010-2020), expected correlations:
 - Retail sales respond within same quarter to confidence shifts
 
 ## Addressing the Current Confidence Paradox (2022-2026)
+
+> **Important Caveat:** This section presents **inference and hypothesis**, not empirical measurement. Without actual consumer confidence data for 2022-2026, we cannot verify whether confidence is in fact "critically low." The analysis below assumes historical relationships (2010-2020) still hold and applies them to current economic indicators. This is speculative reasoning, not statistical confirmation.
 
 While we lack direct confidence data for 2022-2026, we can examine the economic indicators that typically correlate with confidence:
 
@@ -116,14 +124,25 @@ Based on the historical relationships (2010-2020) and current economic data (202
 
 ## Conclusions
 
-Historical patterns (2010-2020) demonstrate that consumer confidence strongly correlates with GDP growth, unemployment, and retail sales. The current paradox of low confidence despite economic stabilization (2022-2026) likely stems from:
+Historical patterns (2010-2020) suggest that consumer confidence correlates with GDP growth, unemployment, and retail sales based on economic literature. **However, we cannot empirically verify current confidence levels** due to data unavailability.
+
+If historical relationships hold, the economic conditions of 2022-2026 would **predict** low confidence due to:
 
 - **Geopolitical anxiety** not captured in traditional economic metrics
 - **Real income pressures** from high inflation and tax increases
 - **Psychological scarring** from the 2022-2023 contraction
 - **Expectations gap** between government messaging and lived experience
 
-The retail sales decline continuing for four years validates that confidence weakness translates into depressed consumer spending, creating a self-fulfilling cycle.
+The retail sales decline from 2022-2024 (three consecutive years, with tentative recovery in 2025) is **consistent with** confidence weakness translating into depressed consumer spending—but without direct confidence measurement, this remains a hypothesis rather than a confirmed causal relationship.
+
+### What We Can and Cannot Say
+
+| Claim | Evidentiary Status |
+|-------|-------------------|
+| Retail sales declined 2022-2024 | **Verified** (Statistics Estonia KM00338) |
+| 2025 shows retail recovery (+3.37% YoY) | **Verified** (Statistics Estonia KM00338) |
+| Consumer confidence is "critically low" | **Unverified** (no data since 2020) |
+| Low confidence causes retail decline | **Inferred** (based on historical correlation, not current measurement) |
 
 ## Policy Implications
 

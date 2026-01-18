@@ -149,8 +149,15 @@ def calculate_inflation_rates(df):
 
 def create_eu_comparison_data():
     """
-    Create synthetic EU comparison data based on literature
-    ECB (2024): Peak 15% March 2023, declined to 5.7% January 2024
+    Create ESTIMATED EU comparison data interpolated from ECB literature reference points.
+
+    IMPORTANT: This is NOT actual Eurostat HICP data. Values are interpolated
+    from ECB (2024) reported reference points:
+    - Peak: ~15% (March 2023)
+    - January 2024: 5.7%
+
+    For rigorous analysis, actual Eurostat HICP food category data should be used.
+    This estimated line is provided for illustrative purposes only.
     """
     dates = pd.date_range('2020-01-01', '2025-12-01', freq='MS')
 
@@ -255,8 +262,8 @@ def main():
             linewidth=2.5, marker='o', markersize=5,
             label='Estonia', color='#0072CE')
     ax.plot(valid_comparison['date'], valid_comparison['eu_food_inflation'],
-            linewidth=2.5, marker='s', markersize=5,
-            label='EU Average (based on ECB 2024)', color='#FDB913')
+            linewidth=2.5, marker='s', markersize=5, linestyle='--',
+            label='EU Average (ESTIMATED from ECB 2024 - not actual Eurostat data)', color='#FDB913')
 
     # Mark key events
     ax.axvline(x=pd.Timestamp('2022-02-24'), color='black',
@@ -273,7 +280,7 @@ def main():
     ax.axhline(y=0, color='gray', linestyle=':', alpha=0.5)
     ax.set_xlabel('Date', fontsize=12, fontweight='bold')
     ax.set_ylabel('Food Price Inflation YoY (%)', fontsize=12, fontweight='bold')
-    ax.set_title('Food Price Inflation: Estonia vs EU Average (2020-2025)',
+    ax.set_title('Food Price Inflation: Estonia vs EU Average (2020-2025)\n(EU line is ESTIMATED from ECB reference points, not actual Eurostat data)',
                  fontsize=14, fontweight='bold', pad=20)
     ax.legend(loc='upper left', fontsize=11)
     ax.grid(True, alpha=0.3)

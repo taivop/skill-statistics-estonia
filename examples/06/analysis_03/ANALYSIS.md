@@ -1,4 +1,4 @@
-# Analysis 3: Retail Sector Performance Trends (Four-Year Decline)
+# Analysis 3: Retail Sector Performance Trends (2022-2024 Decline)
 
 ## Executive Summary
 
@@ -8,7 +8,7 @@ Estonia's retail sector has experienced a protracted period of stagnation and de
 
 - **Sustained Volume Decline (2022-2024)**: The retail sales volume index averaged 99.6 in 2022, 97.9 in 2023, and 96.7 in 2024—a cumulative decline of 2.9 percentage points from the 2021 baseline
 - **Below Pre-Pandemic Levels**: As of 2025 Q3, the retail index stands at 99.2, still below the 2021 baseline (100.0) and 4.9% above the 2019 Q4 pre-pandemic level (94.6)
-- **Four Consecutive Years of Weakness**: Following the 2021 COVID recovery surge (+10.1% YoY), retail volumes contracted in 2022 (-0.08%), 2023 (-1.69%), and 2024 (-1.34%)
+- **Three Consecutive Years of Decline (2022-2024)**: Following the 2021 COVID recovery surge (+10.1% YoY), retail volumes contracted in 2022 (-0.08%), 2023 (-1.69%), and 2024 (-1.34%), with tentative recovery emerging in 2025 (+3.37%)
 - **Nominal vs. Real Disconnect**: While nominal retail sales in euros increased from €8.1 billion (2021) to €9.6 billion (2023)—a 18% rise—the volume index fell, indicating that price inflation fully accounts for revenue growth
 - **2025 Tentative Recovery**: Early 2025 data shows modest YoY growth (+3.37% average through Q3), but this follows severe Q1 seasonal weakness
 
@@ -37,7 +37,7 @@ This analysis demonstrates that **retail sales serve as a real-time economic pul
 - **Seasonal Analysis**: Aggregation by quarter across full time series
 - **Categorical Decomposition**: Breakdown by major commodity groups where available
 
-## The Four-Year Decline: Empirical Evidence
+## The 2022-2024 Decline: Empirical Evidence
 
 ### Timeline of Retail Volume Performance
 
@@ -207,10 +207,10 @@ Analysis 1 documented that consumer confidence historically correlates strongly 
 - When confidence fell, retail sales typically followed within 1-2 quarters
 - When confidence recovered, retail rebounded
 
-**Current Pattern (2022-2026):**
-- Confidence has remained depressed for **four years** (per article interview)
-- Retail has declined for **three consecutive years** (2022-2024)
-- This unusually long synchronization suggests **structural factors** beyond cyclical pessimism
+**Current Pattern (2022-2025):**
+- Confidence reportedly remained depressed for an extended period (per article interview; not directly measurable due to data limitations)
+- Retail volumes declined for **three consecutive years** (2022-2024), with tentative recovery in 2025
+- This extended weakness suggests **structural factors** beyond cyclical pessimism
 
 **Structural Factors Linking Confidence and Retail:**
 
@@ -331,7 +331,7 @@ Analysis 1 documented that consumer confidence historically correlates strongly 
 ### 5. Break the Confidence-Retail Negative Spiral
 
 **Observation:**
-- Four years of low confidence + three years of retail decline = entrenched pessimism
+- Extended period of low confidence + three years of retail decline (2022-2024) = entrenched pessimism
 - Without intervention, negative expectations become self-fulfilling
 
 **Recommendation:**
@@ -402,9 +402,9 @@ Analysis 1 documented that consumer confidence historically correlates strongly 
 
 ## Conclusions
 
-### The Four-Year Decline Is Real and Significant
+### The Three-Year Decline (2022-2024) Is Real and Significant
 
-Estonia's retail sector has experienced three consecutive years of volume decline (2022-2024) following the 2021 recovery peak. This is not a statistical artifact or measurement issue—it reflects genuine reduction in the quantity of goods and services purchased by Estonian consumers.
+Estonia's retail sector experienced three consecutive years of volume decline (2022-2024) following the 2021 recovery peak, with tentative recovery emerging in 2025 (+3.37% YoY). This is not a statistical artifact or measurement issue—it reflects genuine reduction in the quantity of goods and services purchased by Estonian consumers during the 2022-2024 period.
 
 ### Nominal Growth Masks Real Weakness
 
@@ -412,7 +412,7 @@ The 33.7% increase in nominal retail sales (2020-2023) entirely reflects price i
 
 ### Retail Validates Low Consumer Confidence
 
-The sustained retail volume decline directly validates the "four years of critically low consumer confidence" described in the article. Retail sales data provides empirical confirmation that pessimistic sentiment has translated into reduced purchasing behavior.
+The sustained retail volume decline (2022-2024) is **consistent with** reports of low consumer confidence, though confidence cannot be directly measured due to data limitations (see Analysis 1). Retail sales data provides behavioral evidence that consumers reduced purchasing activity during this period.
 
 ### Multiple Structural Factors Drive Weakness
 
@@ -450,7 +450,7 @@ While 2025 Q1-Q3 shows modest YoY improvement (+3.37%), this follows extremely w
 
 Without addressing underlying structural weaknesses, Estonia faces risk of:
 - **Persistent stagnation**: Retail volumes oscillate around 95-100 index range indefinitely
-- **Confidence entrenchment**: Four years of pessimism becomes permanent behavioral shift
+- **Confidence entrenchment**: Extended period of pessimism becomes permanent behavioral shift
 - **Retail sector consolidation**: Weak volumes → business failures → reduced competition → higher prices
 
 **Positive trajectory requires:**

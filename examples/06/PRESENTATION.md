@@ -55,7 +55,7 @@ style: |
 
 - GDP near-stagnant but "positive"
 - Unemployment stable
-- Yet: Retail sales declining 4 years straight
+- Yet: Retail sales declined 3 years (2022-2024)
 - Yet: Consumer sentiment depressed vs. Latvia/Lithuania
 
 ---
@@ -66,7 +66,7 @@ style: |
 
 1. **Consumer Confidence** vs macro indicators
 2. **Tax Policy Impact** on economic activity
-3. **Retail Sector** four-year decline
+3. **Retail Sector** 2022-2024 decline
 4. **Food Price Inflation** drivers
 5. **Vehicle Market** collapse post-tax
 
@@ -76,11 +76,13 @@ style: |
 
 # **Finding 1: The Confidence Crisis**
 
-## Strong Historical Correlations (2010-2020)
+## Historical Correlations (2010-2020) — *Estimated from literature*
 
-**Confidence ↔ GDP:** +0.70 | **Confidence ↔ Unemployment:** -0.65 | **Confidence ↔ Retail:** **+0.75**
+**Confidence ↔ GDP:** ~+0.70 | **Confidence ↔ Unemployment:** ~-0.65 | **Confidence ↔ Retail:** ~+0.75
 
-## Why Confidence Remains Low (2022-2026)
+⚠️ **Data Limitation:** Confidence data ends 2020 — current levels inferred, not measured
+
+## Why Confidence May Be Low (2022-2025) — *Hypothesis*
 
 1. **Geopolitical anxiety** — Ukraine war proximity
 2. **Real income squeeze** — 12.8% inflation + tax hikes
@@ -109,7 +111,7 @@ style: |
 
 # **Finding 3: Retail Reality**
 
-## Four-Year Decline Confirmed
+## Three-Year Decline (2022-2024)
 
 **2022:** 99.6 (-0.08%) | **2023:** 97.9 **(-1.69%)** | **2024:** 96.7 **(-1.34%)** | **2025:** 96.8 (+3.37%)
 
@@ -164,7 +166,7 @@ style: |
 
 **Citizens experience:**
 - Real income crushed (inflation + taxes)
-- Retail volumes declining (4 years)
+- Retail volumes declined (2022-2024)
 - Cost of living crisis (food, energy, transport)
 - Geopolitical anxiety (border state)
 
@@ -176,20 +178,23 @@ VAT +2pp + Vehicle tax + 12.8% inflation = **Severe squeeze**
 
 # **Conclusions**
 
-## All Five Claims Empirically Validated
+## Findings Consistent With Concerns Raised
 
-✓ Consumer confidence low | ✓ Tax policy dampened activity | ✓ Retail 4-year decline
-✓ Food inflation 2x EU average | ✓ Vehicle market -51%
+✓ Consumer confidence reportedly low *(not directly measurable)* | ✓ Tax revenue grew faster than activity
+✓ Retail 3-year decline (2022-2024), 2025 recovery | ✓ Food inflation 2x EU *(energy-driven)* | ✓ Vehicle market -51%
+
+## Important Caveats
+
+- **Correlation ≠ causation** — External factors (war, ECB rates, COVID aftermath) confound analysis
+- **Consumer confidence data unavailable** 2022-2026 — conclusions are inferred
+- **No Latvia/Lithuania comparison** — claims of Estonian underperformance are unverified
 
 ## Key Policy Implications
 
-1. **Realign messaging** with lived experience
-2. **Address cost-of-living** (food, energy priorities)
-3. **Recalibrate tax policy** (avoid pro-cyclical increases)
-4. **Energy independence** (nuclear/renewables)
-5. **Rebuild trust** through transparency
-
-**Optimistic statistics ≠ Economic wellbeing**
+1. **Address cost-of-living** (food, energy priorities)
+2. **Recalibrate tax policy** (consider timing and design)
+3. **Energy independence** (reduce vulnerability)
+4. **Transparent communication**
 
 ---
 

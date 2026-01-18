@@ -206,23 +206,42 @@ Estonia's vehicle market exhibited resilience through multiple shocks before 202
 
 ### Elasticity Calculation
 
-**Own-price elasticity of vehicle demand**:
+> **Methodological Warning:** The elasticity estimate below is a **rough approximation** with significant methodological limitations. It should NOT be interpreted as a precise economic measurement. Proper elasticity estimation would require:
+> - Regression analysis with control variables
+> - Accounting for intertemporal substitution (pre-tax surge borrowing from post-tax demand)
+> - Separating cross-border leakage from true demand reduction
+> - Controlling for concurrent economic conditions
+
+**Illustrative (not rigorous) elasticity calculation**:
 
 - Tax increase: Registration fee rose from ~€150-200 (2023 implicit) to ~€2,400 average (2025)
 - Assuming average vehicle price ~€25,000: Tax increase = ~8.5% of vehicle price
 - Volume decline: -51.1%
-- **Implied elasticity**: ε ≈ -51.1% / 8.5% ≈ **-6.0**
+- **Crude implied elasticity**: ε ≈ -51.1% / 8.5% ≈ **-6.0**
 
-**Interpretation**:
-- Highly elastic demand (|ε| > 1)
-- Each 1% price increase (via tax) → ~6% quantity decline
-- Far exceeds typical price elasticity estimates for vehicles (-0.5 to -1.2 in literature)
+**Why this estimate is unreliable**:
 
-**Possible explanations for extreme elasticity**:
-1. **Cross-border substitution**: Consumers can register in Latvia/Lithuania
-2. **Deferral**: Consumers postponing purchases hoping for policy reversal
-3. **Used vehicle market**: Shift to unregistered/informal transactions
-4. **Income effects**: Estonian consumers particularly price-sensitive
+1. **Not true price elasticity**: The 51% decline includes:
+   - Cross-border substitution (Estonian businesses registering in Latvia/Lithuania)
+   - Purchase deferral (consumers waiting for potential policy reversal)
+   - Pre-tax surge effect (2024 purchases borrowed from 2025 demand)
+   - General economic weakness (concurrent factors)
+
+2. **Methodological issues**:
+   - Simple division of percentages is not econometric estimation
+   - No control group or counterfactual
+   - No statistical significance testing
+   - Confounding variables not controlled
+
+3. **Literature comparison caveat**: Comparing this crude -6.0 to literature estimates of -0.5 to -1.2 is methodologically inappropriate, as the literature uses proper regression techniques.
+
+**What we CAN say**: The market decline of 51% is **dramatically larger** than typical vehicle tax responses documented in literature. The exact magnitude of true price elasticity remains unknown without rigorous econometric analysis.
+
+**Possible explanations for extreme market response** (not necessarily "elasticity"):
+1. **Cross-border substitution**: Consumers can register in Latvia/Lithuania (leakage, not elasticity)
+2. **Deferral**: Consumers postponing purchases hoping for policy reversal (timing shift, not permanent demand reduction)
+3. **Pre-tax surge**: 2024 purchases depleted 2025 demand pool (intertemporal substitution)
+4. **Concurrent factors**: Economic uncertainty, high interest rates, other pressures
 
 ## Literature Context and Comparative Analysis
 

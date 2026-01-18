@@ -26,10 +26,10 @@ Jüri Käo (Director of the Estonian Institute of Economic Research) highlighted
 
 ## Study Questions Addressed
 
-1. Why has consumer confidence remained critically low for four years?
+1. Why has consumer confidence reportedly remained low since 2022?
 2. How have tax increases (VAT, vehicle tax) affected economic activity?
 3. What drives Estonia's persistently high food price inflation?
-4. What explains four consecutive years of retail sales decline?
+4. What explains the retail sales decline from 2022-2024?
 5. How has the vehicle registration tax impacted the car market?
 
 ---
@@ -54,7 +54,7 @@ Jüri Käo (Director of the Estonian Institute of Economic Research) highlighted
 **Major Findings:**
 
 - **VAT revenue increased 31.3%** following July 2022 rate increase (20% → 22%)
-- **Retail sales fell 18.8%** from peak, validating "four-year decline" claim
+- **Retail sales fell 18.8%** from peak; three consecutive years of decline (2022-2024), with 2025 showing recovery (+3.37%)
 - **Strong correlation** between retail sales and tax revenues (r=0.66-0.71)
 - **Revenue growth** outpaced economic activity **7-8x** (27-31% vs. 2%)
 
@@ -66,7 +66,7 @@ Jüri Käo (Director of the Estonian Institute of Economic Research) highlighted
 
 ### 3. Retail Sector Decline (Analysis 3)
 
-**Four-Year Decline Confirmed:**
+**Three-Year Decline (2022-2024) with 2025 Recovery:**
 
 | Year | Average Index | YoY Change |
 |------|--------------|------------|
@@ -126,13 +126,14 @@ Jüri Käo (Director of the Estonian Institute of Economic Research) highlighted
 |-------|----------------|-----------------|
 | German study (2021) | -2% to -5% | **-51.1%** |
 | EU panel (2016) | "Lower than expected" | **10x worse** |
-| Demand elasticity | ε ≈ -1.0 typical | **ε ≈ -6.0** |
 
-**Why Estonia is an Outlier:**
+> **Note on elasticity:** A crude calculation suggests ε ≈ -6.0, but this is methodologically unreliable as it conflates cross-border substitution, purchase deferral, and pre-tax surge effects with true price elasticity. See Analysis 5 for detailed caveats.
 
-- Cross-border leakage to Latvia/Lithuania (EU open borders)
-- Timing during economic downturn amplified impact
-- Small market size increases elasticity
+**Why Estonia's Response Was So Extreme:**
+
+- Cross-border leakage to Latvia/Lithuania (EU open borders) - not true elasticity
+- Pre-tax surge in 2024 borrowed from 2025 demand
+- Purchase deferral (waiting for potential policy reversal)
 - No offsetting incentives (only punishment)
 
 **Environmental Goals:** Achieved through demand destruction, not composition shift toward EVs.
@@ -242,7 +243,7 @@ Jüri Käo (Director of the Estonian Institute of Economic Research) highlighted
 
 ### Analysis 3: Retail Sector Performance
 **Location:** `examples/06/analysis_03/`
-- Four-year decline documentation
+- 2022-2024 decline documentation
 - 4 visualizations (time series, seasonal, commodity breakdown)
 - Quarterly and annual decomposition
 - Pre-pandemic comparison
@@ -263,17 +264,74 @@ Jüri Käo (Director of the Estonian Institute of Economic Research) highlighted
 
 ---
 
+## Alternative Explanations and Confounding Factors
+
+> **Important Context:** This study was framed to examine claims made in a critical interview. To avoid confirmation bias, this section presents alternative explanations and factors that may account for Estonia's economic challenges beyond domestic policy failures.
+
+### External Factors Affecting All of Europe (2022-2024)
+
+1. **Russia-Ukraine War (Feb 2022)**
+   - Energy price shock affected all EU economies
+   - Supply chain disruptions were pan-European
+   - Estonia's proximity makes it difficult to isolate domestic policy effects from geopolitical impacts
+
+2. **ECB Interest Rate Increases**
+   - ECB raised rates from 0% to 4.5% (2022-2023)
+   - Higher borrowing costs depressed durable goods purchases across Eurozone
+   - Estonia's retail weakness may partially reflect EU-wide monetary tightening
+
+3. **Global Inflation Surge**
+   - Post-COVID inflation affected all developed economies
+   - Estonia's high food inflation (29.75%) was extreme but part of a global pattern
+   - Some inflation drivers (energy, commodities) were beyond Estonian policy control
+
+4. **Post-COVID Normalization**
+   - 2021 retail surge (+10.1%) may have been artificially high (pent-up demand, stimulus)
+   - Some 2022-2024 "decline" may be reversion to trend rather than policy failure
+
+### Latvia and Lithuania Comparison (Data Gap)
+
+This study references Latvia/Lithuania frequently but **does not provide actual comparative data**. A rigorous analysis would require:
+
+- Latvian and Lithuanian retail sales indices
+- Baltic consumer confidence comparisons
+- Cross-country tax policy differences
+- Similar inflation breakdowns
+
+Without this data, claims that Estonia performed worse than Baltic neighbors are **assertions, not empirical findings**.
+
+### Counterfactual Uncertainty
+
+Key questions this analysis cannot answer:
+
+1. **What would have happened without VAT increase?** Inflation was already high; VAT increase was 2pp on a 20% base—relatively modest.
+
+2. **Was vehicle tax poorly designed or poorly timed?** A similar tax during economic expansion might have yielded different results.
+
+3. **Are Estonian consumers uniquely price-sensitive?** Or does the small, open economy with EU neighbors create structural cross-border leakage that would affect any tax policy?
+
+### What the Data Shows vs. What We Infer
+
+| Observation | Verified | Inference | Status |
+|-------------|----------|-----------|--------|
+| Retail sales declined 2022-2024 | Yes | Due to tax policy | **Correlation, not causation** |
+| Food inflation peaked at 29.75% | Yes | Policy failure | **Partially—energy was primary driver** |
+| Vehicle registrations fell 51% | Yes | Tax caused collapse | **Likely, but timing/design confounded** |
+| Consumer confidence low | No data 2022-2026 | Assumed from historical patterns | **Unverified hypothesis** |
+
+---
+
 ## Overall Conclusions
 
-### 1. Käo's Criticisms Are Empirically Validated
+### 1. Findings Consistent With (But Not Proving) Käo's Criticisms
 
-All five major claims from the ERR interview are supported by data:
+The data patterns are **consistent with** concerns raised in the ERR interview, though causation is difficult to establish:
 
-✓ Consumer confidence critically low (2010-2020 correlations explain 2022-2026 pattern)
-✓ Tax increases dampened activity (31% revenue growth, 19% retail decline)
-✓ Retail sales deteriorating (four-year decline confirmed)
-✓ Food inflation exceptionally high (29.75% peak, 2x EU average)
-✓ Vehicle tax eliminated ~50% of market (51.1% actual decline)
+✓ Consumer confidence reportedly low (but cannot be directly measured—see Analysis 1 data limitations)
+✓ Tax revenue grew faster than economic activity (31% revenue vs. ~2% retail growth)
+✓ Retail sales declined 2022-2024 (three years confirmed; 2025 shows recovery)
+✓ Food inflation exceptionally high (29.75% peak—though energy costs were primary driver)
+✓ Vehicle registrations fell 51% after tax introduction (though cross-border leakage and timing effects complicate interpretation)
 
 ### 2. Disconnect Between Government Messaging and Lived Experience
 
