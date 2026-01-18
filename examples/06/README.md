@@ -76,6 +76,27 @@ examples/06/
    - Analysis code
    - Visualization generation
 
+### Presentation
+
+The **PRESENTATION.html** file is pre-generated and ready to view. To regenerate from source:
+
+```bash
+# Install Marp CLI (one-time setup)
+npm install -g @marp-team/marp-cli
+
+# Regenerate HTML from markdown
+cd examples/06
+marp PRESENTATION.md --html -o PRESENTATION.html
+```
+
+**To export to PDF** (for LinkedIn/sharing):
+1. Open `PRESENTATION.html` in Chrome/Edge/Firefox
+2. Press `Ctrl+P` (or `Cmd+P` on Mac)
+3. Select "Save as PDF"
+4. Settings: Landscape orientation, no margins, background graphics ON
+
+See **PRESENTATION_README.md** for detailed export instructions.
+
 ## Data Sources
 
 **Primary:** Statistics Estonia (andmed.stat.ee)
