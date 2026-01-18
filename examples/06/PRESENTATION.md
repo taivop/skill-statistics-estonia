@@ -197,19 +197,6 @@ VAT +2pp + Vehicle tax + 12.8% inflation = **Severe squeeze**
 <!-- _paginate: false -->
 <!-- _footer: '' -->
 
-<style scoped>
-section {
-  background-color: #0051A5;
-  color: white;
-}
-h1, h2 {
-  color: white;
-}
-a {
-  color: #FFD700;
-}
-</style>
-
 # **Thank You**
 
 ## Full Analysis Available
