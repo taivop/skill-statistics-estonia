@@ -44,15 +44,21 @@ Sources include both APIs/datasets and official websites/registries.
 
 ## Source Index
 
+- `sources/abis-governance`
 - `sources/agricultural-subsidies-pria`
 - `sources/aircraft-register`
+- `sources/animal-disease-control`
 - `sources/animal-keeper-registering`
 - `sources/aviation-occurrence-reporting`
+- `sources/aviation-safety-reports`
 - `sources/bank-of-statistics`
+- `sources/border-management-operations`
 - `sources/business-register-open-data`
+- `sources/communicable-disease-bulletins`
 - `sources/competition-authority-decisions`
 - `sources/construction-register`
 - `sources/consumer-technical-regulator-decisions`
+- `sources/court-information-system`
 - `sources/court-proceedings-data`
 - `sources/court-system-statistics`
 - `sources/crime-policy-statistics`
@@ -61,16 +67,22 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/cyber-incidents-cert-ee`
 - `sources/data-protection-enforcement`
 - `sources/digital-government-studies`
+- `sources/drone-operator-registration`
 - `sources/e-file-statistics`
+- `sources/e-notary`
 - `sources/e-ship-register-rik`
 - `sources/economic-activities-register-mtr`
 - `sources/education-data`
 - `sources/election-results-data`
 - `sources/energy-data`
+- `sources/environmental-charge-statistics`
 - `sources/environmental-data`
 - `sources/environmental-permit-decisions`
 - `sources/eu-funded-projects`
+- `sources/fairway-dues`
 - `sources/financial-supervision-decisions`
+- `sources/food-business-approvals`
+- `sources/food-supervision`
 - `sources/forest-register`
 - `sources/geospatial-open-data`
 - `sources/government-journal-records`
@@ -80,6 +92,7 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/health-statistics`
 - `sources/health-supervision-decisions`
 - `sources/health-welfare-open-data`
+- `sources/healthcare-professionals-register`
 - `sources/labour-inspectorate-enforcement`
 - `sources/labour-inspectorate-statistics`
 - `sources/land-register-kinnistusraamat`
@@ -89,6 +102,7 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/local-council-volis`
 - `sources/local-government-finance-benchmarks`
 - `sources/marital-property-register`
+- `sources/maritime-economy-statistics`
 - `sources/medicines-agency-statistics`
 - `sources/medicines-register`
 - `sources/migration-management`
@@ -99,11 +113,15 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/ombudsman-opinions`
 - `sources/open-data`
 - `sources/party-funding-data`
+- `sources/patent-and-trademark-registers`
 - `sources/planning-decisions`
+- `sources/plant-protection-supervision`
 - `sources/police-operational-statistics`
 - `sources/political-party-membership`
 - `sources/prison-annual-reviews`
 - `sources/procurement-data`
+- `sources/procurement-review`
+- `sources/procurement-state-supervision`
 - `sources/prosecution-statistics`
 - `sources/public-consultations-feed`
 - `sources/public-consultations-osale`
@@ -136,7 +154,9 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/tax-public-inquiries`
 - `sources/transport-traffic-data`
 - `sources/unemployment-statistics`
+- `sources/vaccination-statistics`
 - `sources/vehicle-background-check`
 - `sources/vital-statistics-procedures`
 - `sources/weather-data`
+- `sources/work-dispute-committee`
 - `sources/x-road-usage-statistics`

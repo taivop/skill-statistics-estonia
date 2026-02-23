@@ -36,6 +36,8 @@ description: Get evidence-based answers about Estonian government operations, de
   `sources/business-register-open-data`, `sources/land-register-kinnistusraamat`, `sources/economic-activities-register-mtr`, `sources/state-ownership-data`
 - Public spending, subsidies, and projects:
   `sources/procurement-data`, `sources/party-funding-data`, `sources/agricultural-subsidies-pria`, `sources/eu-funded-projects`
+- Procurement oversight and review:
+  `sources/procurement-review`, `sources/procurement-state-supervision`
 - Justice and internal security operations:
   `sources/court-proceedings-data`, `sources/court-system-statistics`, `sources/prosecution-statistics`, `sources/police-operational-statistics`
 - Health, welfare, and labor operations:
@@ -49,13 +51,23 @@ description: Get evidence-based answers about Estonian government operations, de
 - Justice execution and registry operations:
   `sources/e-file-statistics`, `sources/criminal-records-database`, `sources/prison-annual-reviews`, `sources/crime-policy-statistics`
 - Labour, population, and civil procedures:
-  `sources/labour-inspectorate-statistics`, `sources/labour-inspectorate-enforcement`, `sources/migration-management`, `sources/vital-statistics-procedures`
+  `sources/labour-inspectorate-statistics`, `sources/labour-inspectorate-enforcement`, `sources/work-dispute-committee`, `sources/migration-management`, `sources/vital-statistics-procedures`
 - Civil and property-rights registries:
   `sources/marital-property-register`, `sources/succession-register`, `sources/vehicle-background-check`, `sources/forest-register`
 - Transport, maritime, and aviation registries:
   `sources/aircraft-register`, `sources/ship-registers`, `sources/state-port-register`, `sources/e-ship-register-rik`, `sources/aviation-occurrence-reporting`
 - Health financing and medicine-system reporting:
   `sources/health-insurance-fund-reports`, `sources/medicines-agency-statistics`, `sources/animal-keeper-registering`
+- Public health surveillance and professional registries:
+  `sources/communicable-disease-bulletins`, `sources/vaccination-statistics`, `sources/healthcare-professionals-register`
+- Food, plant, and environmental supervision:
+  `sources/food-supervision`, `sources/food-business-approvals`, `sources/plant-protection-supervision`, `sources/animal-disease-control`, `sources/environmental-charge-statistics`
+- Border, biometric, and migration governance:
+  `sources/border-management-operations`, `sources/abis-governance`, `sources/migration-management`, `sources/vital-statistics-procedures`
+- Maritime, aviation, and transport regulation detail:
+  `sources/maritime-economy-statistics`, `sources/fairway-dues`, `sources/drone-operator-registration`, `sources/aviation-safety-reports`
+- Civil justice and legal service systems:
+  `sources/e-notary`, `sources/court-information-system`, `sources/patent-and-trademark-registers`
 
 ## Detailed map
 - Use `SOURCE_MAP.md` for fast source selection by user intent and keyword.

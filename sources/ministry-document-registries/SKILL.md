@@ -18,14 +18,16 @@ description: Query Estonia's official ministry and agency document registries (A
 ## Outputs
 - Registry search results with document metadata and source links.
 
-## Primary endpoint
+## Primary endpoints
 - ADR network root: https://adr.rik.ee/
+- RIK agency document register: https://www.rik.ee/en/agency/document-register
 
 ## Workflow
 1. Identify target institution's registry from ADR network.
 2. Query by keyword/date/document number.
-3. Extract core metadata (registry number, dates, sender/recipient, subject).
-4. Return normalized records and links.
+3. Include RIK agency document register where institution context requires it.
+4. Extract core metadata (registry number, dates, sender/recipient, subject).
+5. Return normalized records and links.
 
 ## Human setup (when needed)
 - ADR pages are often UI-first. Walk the user through selecting the institution and entering filters, then ask for the resulting search URL or exported file and continue.

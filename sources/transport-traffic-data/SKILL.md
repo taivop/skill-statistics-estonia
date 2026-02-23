@@ -21,12 +21,14 @@ description: Retrieve Estonia transport and road traffic frequency data from Tra
 ## Primary endpoints
 - Agency site: https://www.transpordiamet.ee/en
 - Traffic frequency page (ET): https://www.transpordiamet.ee/liiklussagedus
+- Traffic safety programme context: https://www.transpordiamet.ee/en/safety-and-supervision/traffic-safety/traffic-safety-programme-2016-2025
 
 ## Workflow
 1. Open traffic frequency resources and identify the relevant table/map export.
-2. Download available files and parse location identifiers.
-3. Normalize units and temporal aggregation.
-4. Return cleaned data with source mapping.
+2. Use traffic safety programme indicators when policy-level context is requested.
+3. Download available files and parse location identifiers.
+4. Normalize units and temporal aggregation.
+5. Return cleaned data with source mapping.
 
 ## Human setup (when needed)
 - If data is published only via interactive map/UI, provide exact user steps to export/download, then continue automatically from supplied files.
