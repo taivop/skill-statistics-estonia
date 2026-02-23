@@ -1,6 +1,6 @@
 ---
 name: using-estonia-business-register-open-data
-description: Use Estonian Business Register open data downloads for legal-entity level analysis, registry snapshots, and company population studies.
+description: Use Estonian Business Register open data downloads for legal-entity analysis, registry snapshots, and organization-level trends including political party statistics.
 ---
 
 # Estonia Business Register Open Data
@@ -8,6 +8,7 @@ description: Use Estonian Business Register open data downloads for legal-entity
 ## Use when
 - You need legal entity baseline datasets (registrations, statuses, attributes).
 - You need reproducible business population extracts.
+- You need organization-level context that also supports party membership trend analysis.
 
 ## Avoid when
 - You only need high-level macro indicators.

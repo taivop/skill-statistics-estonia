@@ -1,13 +1,14 @@
 ---
 name: using-estonia-geospatial-open-data
-description: Use Land and Spatial Board geospatial open data services for maps, cadastral, and address-linked analysis in Estonia.
+description: Use Land and Spatial Board geospatial open data services for maps, cadaster/cadastral parcels, and address-linked analysis in Estonia.
 ---
 
 # Estonia Geospatial Open Data
 
 ## Use when
-- You need base maps, cadastral context, or map-service layers.
+- You need base maps, cadaster/cadastral parcel context, or map-service layers.
 - You need interoperable geospatial services (WMS/WFS/WMTS).
+- You need parcel-level lookup or map extraction for a specific cadastral unit/area.
 
 ## Avoid when
 - You only need non-spatial time series indicators.
@@ -19,6 +20,7 @@ description: Use Land and Spatial Board geospatial open data services for maps, 
 ## Outputs
 - Layer/service URLs.
 - Retrieved geospatial dataset or map extract.
+- Cadastral unit context when present in selected layers.
 
 ## Primary endpoints
 - Geoportal: https://geoportaal.maaamet.ee/eng/
@@ -27,7 +29,7 @@ description: Use Land and Spatial Board geospatial open data services for maps, 
 ## Workflow
 1. Open the public services page and select the right layer family.
 2. Use GetCapabilities endpoint listed there to discover exact layers.
-3. Query layer subset by bbox/filter.
+3. Query layer subset by bbox/filter (including parcel identifiers when available).
 4. Export in a reusable format and document CRS/projection.
 
 ## Human setup (when needed)

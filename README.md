@@ -18,30 +18,14 @@ Sources include both APIs/datasets and official websites/registries.
 .
 ├── README.md
 ├── BACKLOG_MULTI_SKILL_EXPANSION.md
+├── BACKLOG_OPERATIONAL_GOVERNANCE_DATA.md
+├── BACKLOG_PRIORITY_MISSING_GOVERNMENT_COVERAGE.md
 └── skills/
-    ├── analyzing-estonia-election-results-data/
-    ├── analyzing-estonia-procurement-data/
-    ├── analyzing-estonia-public-finance-data/
-    ├── discovering-estonia-open-data/
-    ├── querying-bank-of-estonia-statistics/
-    ├── querying-estonia-education-data/
-    ├── querying-estonia-energy-data/
-    ├── querying-estonia-environmental-data/
-    ├── querying-estonia-health-statistics/
-    ├── querying-estonia-legal-acts-data/
-    ├── querying-estonia-tax-customs-data/
-    ├── querying-estonia-transport-traffic-data/
-    ├── querying-estonia-weather-data/
-    ├── querying-riigikogu-open-data/
-    ├── querying-statistics-estonia-api/
-    │   ├── SKILL.md
-    │   ├── get_metadata.py
-    │   └── examples/
-    ├── querying-tallinn-open-data/
-    ├── querying-tartu-open-data/
-    ├── using-estonia-business-register-open-data/
-    ├── using-estonia-geospatial-open-data/
-    └── using-estonia-health-welfare-open-data/
+    ├── <skill-slug-1>/
+    │   └── SKILL.md
+    ├── <skill-slug-2>/
+    │   └── SKILL.md
+    └── ...
 ```
 
 ## Rules
@@ -53,42 +37,82 @@ Sources include both APIs/datasets and official websites/registries.
 
 ## Skill Index
 
-- `skills/querying-statistics-estonia-api`
-- `skills/discovering-estonia-open-data`
-- `skills/using-estonia-geospatial-open-data`
-- `skills/querying-bank-of-estonia-statistics`
-- `skills/querying-estonia-energy-data`
-- `skills/analyzing-estonia-public-finance-data`
-- `skills/using-estonia-business-register-open-data`
-- `skills/analyzing-estonia-procurement-data`
-- `skills/querying-estonia-tax-customs-data`
-- `skills/querying-estonia-environmental-data`
-- `skills/querying-estonia-weather-data`
-- `skills/querying-estonia-health-statistics`
-- `skills/using-estonia-health-welfare-open-data`
-- `skills/querying-estonia-education-data`
-- `skills/querying-estonia-transport-traffic-data`
 - `skills/analyzing-estonia-election-results-data`
-- `skills/querying-riigikogu-open-data`
-- `skills/querying-estonia-legal-acts-data`
-- `skills/querying-tallinn-open-data`
-- `skills/querying-tartu-open-data`
-- `skills/tracking-estonia-legislation-workflow-eis`
-- `skills/tracking-riigikogu-draft-laws`
-- `skills/querying-riigikogu-stenograms`
-- `skills/tracking-riigikogu-agendas`
-- `skills/tracking-estonia-government-session-agendas`
-- `skills/querying-riigiteataja-draft-acts`
-- `skills/querying-estonia-court-proceedings-data`
-- `skills/querying-estonia-official-notices`
-- `skills/querying-estonia-local-council-volis`
-- `skills/querying-tallinn-legal-acts-register`
-- `skills/querying-tallinn-council-documents`
-- `skills/querying-tartu-webaktid`
-- `skills/querying-tartu-document-register`
-- `skills/querying-estonia-environmental-permit-decisions`
+- `skills/analyzing-estonia-political-party-membership`
+- `skills/analyzing-estonia-procurement-data`
+- `skills/analyzing-estonia-public-finance-data`
+- `skills/discovering-estonia-open-data`
+- `skills/monitoring-estonia-public-consultations-feed`
+- `skills/querying-bank-of-estonia-statistics`
+- `skills/querying-estonia-agricultural-subsidies-pria`
+- `skills/querying-estonia-competition-authority-decisions`
 - `skills/querying-estonia-construction-register`
+- `skills/querying-estonia-consumer-technical-regulator-decisions`
+- `skills/querying-estonia-court-proceedings-data`
+- `skills/querying-estonia-court-system-statistics`
+- `skills/querying-estonia-cultural-heritage-register`
+- `skills/querying-estonia-cyber-incidents-cert-ee`
+- `skills/querying-estonia-data-protection-enforcement`
+- `skills/querying-estonia-digital-government-studies`
+- `skills/querying-estonia-economic-activities-register-mtr`
+- `skills/querying-estonia-education-data`
+- `skills/querying-estonia-energy-data`
+- `skills/querying-estonia-environmental-data`
+- `skills/querying-estonia-environmental-permit-decisions`
+- `skills/querying-estonia-eu-funded-projects`
+- `skills/querying-estonia-financial-supervision-decisions`
+- `skills/querying-estonia-government-journal-records`
+- `skills/querying-estonia-government-office-document-register`
+- `skills/querying-estonia-health-statistics`
+- `skills/querying-estonia-health-supervision-decisions`
+- `skills/querying-estonia-land-register-kinnistusraamat`
+- `skills/querying-estonia-legal-acts-data`
+- `skills/querying-estonia-local-council-volis`
+- `skills/querying-estonia-local-government-finance-benchmarks`
+- `skills/querying-estonia-medicines-register`
+- `skills/querying-estonia-ministry-document-registries`
+- `skills/querying-estonia-national-archives-governance-records`
+- `skills/querying-estonia-official-notices`
+- `skills/querying-estonia-officials-interest-declarations`
+- `skills/querying-estonia-ombudsman-opinions`
+- `skills/querying-estonia-party-funding-data`
 - `skills/querying-estonia-planning-decisions`
+- `skills/querying-estonia-police-operational-statistics`
+- `skills/querying-estonia-prosecution-statistics`
+- `skills/querying-estonia-public-sector-it-systems-riha`
+- `skills/querying-estonia-rescue-incident-data`
+- `skills/querying-estonia-social-insurance-statistics`
+- `skills/querying-estonia-state-aid-register`
+- `skills/querying-estonia-state-assets-register`
+- `skills/querying-estonia-state-audit-reports`
+- `skills/querying-estonia-state-ownership-data`
+- `skills/querying-estonia-state-services-catalog`
+- `skills/querying-estonia-supreme-court-judgments`
+- `skills/querying-estonia-tax-customs-data`
+- `skills/querying-estonia-tax-public-inquiries`
+- `skills/querying-estonia-transport-traffic-data`
+- `skills/querying-estonia-unemployment-statistics`
+- `skills/querying-estonia-weather-data`
+- `skills/querying-estonia-x-road-usage-statistics`
+- `skills/querying-riigikogu-open-data`
+- `skills/querying-riigikogu-stenograms`
+- `skills/querying-riigiteataja-draft-acts`
+- `skills/querying-statistics-estonia-api`
+- `skills/querying-tallinn-council-documents`
+- `skills/querying-tallinn-legal-acts-register`
+- `skills/querying-tallinn-open-data`
+- `skills/querying-tartu-document-register`
+- `skills/querying-tartu-open-data`
+- `skills/querying-tartu-webaktid`
+- `skills/tracking-estonia-government-session-agendas`
+- `skills/tracking-estonia-legislation-workflow-eis`
+- `skills/tracking-estonia-lobby-meetings`
+- `skills/tracking-estonia-public-consultations-osale`
+- `skills/tracking-riigikogu-agendas`
+- `skills/tracking-riigikogu-draft-laws`
+- `skills/using-estonia-business-register-open-data`
+- `skills/using-estonia-geospatial-open-data`
+- `skills/using-estonia-health-welfare-open-data`
 
 ## Backlog
 

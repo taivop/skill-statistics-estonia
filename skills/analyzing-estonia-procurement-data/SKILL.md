@@ -8,6 +8,7 @@ description: Analyze Estonian public procurement register data for tenders, cont
 ## Use when
 - You need public tender/contract activity by buyer, supplier, or sector.
 - You need procurement trend or concentration analysis.
+- You need tender pipeline and award monitoring from the procurement register.
 
 ## Avoid when
 - You need broader budget-level reporting without tender detail.
