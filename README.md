@@ -63,6 +63,22 @@ This repository is a multi-skill collection for working with Estonian public dat
 - `skills/querying-estonia-legal-acts-data`
 - `skills/querying-tallinn-open-data`
 - `skills/querying-tartu-open-data`
+- `skills/tracking-estonia-legislation-workflow-eis`
+- `skills/tracking-riigikogu-draft-laws`
+- `skills/querying-riigikogu-stenograms`
+- `skills/tracking-riigikogu-agendas`
+- `skills/tracking-estonia-government-session-agendas`
+- `skills/querying-riigiteataja-draft-acts`
+- `skills/querying-estonia-court-proceedings-data`
+- `skills/querying-estonia-official-notices`
+- `skills/querying-estonia-local-council-volis`
+- `skills/querying-tallinn-legal-acts-register`
+- `skills/querying-tallinn-council-documents`
+- `skills/querying-tartu-webaktid`
+- `skills/querying-tartu-document-register`
+- `skills/querying-estonia-environmental-permit-decisions`
+- `skills/querying-estonia-construction-register`
+- `skills/querying-estonia-planning-decisions`
 
 ## Backlog
 
