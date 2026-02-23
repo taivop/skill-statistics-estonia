@@ -41,7 +41,7 @@ Expand this repository from a single skill into a multi-skill collection coverin
 
 ## Implementation Status (2026-02-23)
 
-All 20 skills have been implemented under `skills/<skill-slug>/SKILL.md`.
+All 20 skills have been implemented under `sources/<skill-slug>/SKILL.md`.
 
 1. `querying-statistics-estonia-api` - implemented
 2. `discovering-estonia-open-data` - implemented
