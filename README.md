@@ -2,6 +2,16 @@
 
 This repository is a multi-skill collection for working with Estonian public datasets.
 
+## Project Goal
+
+Cover, via reusable skills, any information that can be found from public and official Estonian sources about:
+
+- How government operates now.
+- How government has operated historically.
+- Context data needed to interpret government operations.
+
+Sources include both APIs/datasets and official websites/registries.
+
 ## Structure
 
 ```text
@@ -84,3 +94,4 @@ This repository is a multi-skill collection for working with Estonian public dat
 
 - Planning and limitations are tracked in `BACKLOG_MULTI_SKILL_EXPANSION.md`.
 - Operational-governance sources backlog is tracked in `BACKLOG_OPERATIONAL_GOVERNANCE_DATA.md`.
+- Priority missing-coverage backlog is tracked in `BACKLOG_PRIORITY_MISSING_GOVERNMENT_COVERAGE.md`.
