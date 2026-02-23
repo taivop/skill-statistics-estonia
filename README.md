@@ -25,9 +25,6 @@ Sources include both APIs/datasets and official websites/registries.
 ├── SKILL.md
 ├── SOURCE_MAP.md
 ├── README.md
-├── BACKLOG_MULTI_SKILL_EXPANSION.md
-├── BACKLOG_OPERATIONAL_GOVERNANCE_DATA.md
-├── BACKLOG_PRIORITY_MISSING_GOVERNMENT_COVERAGE.md
 └── sources/
     ├── <source-skill-slug-1>/
     │   └── SKILL.md
@@ -122,9 +119,3 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/business-register-open-data`
 - `sources/geospatial-open-data`
 - `sources/health-welfare-open-data`
-
-## Backlog
-
-- Planning and limitations are tracked in `BACKLOG_MULTI_SKILL_EXPANSION.md`.
-- Operational-governance sources backlog is tracked in `BACKLOG_OPERATIONAL_GOVERNANCE_DATA.md`.
-- Priority missing-coverage backlog is tracked in `BACKLOG_PRIORITY_MISSING_GOVERNMENT_COVERAGE.md`.
