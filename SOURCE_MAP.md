@@ -19,6 +19,8 @@ Purpose: pick the right official source skill quickly.
 | State audits/constitutional oversight | `sources/state-audit-reports`, `sources/ombudsman-opinions` |
 | Supreme Court and court case flows | `sources/supreme-court-judgments`, `sources/court-proceedings-data`, `sources/court-system-statistics` |
 | Prosecution and police operational context | `sources/prosecution-statistics`, `sources/police-operational-statistics` |
+| Justice case-flow analytics and criminal-record procedures | `sources/e-file-statistics`, `sources/criminal-records-database` |
+| Prison system annual operations | `sources/prison-annual-reviews` |
 | Official notices, insolvency announcements, summons | `sources/official-notices` |
 | Business entities and company baseline data | `sources/business-register-open-data` |
 | Property rights / land register | `sources/land-register-kinnistusraamat` |
@@ -28,11 +30,17 @@ Purpose: pick the right official source skill quickly.
 | Taxes and public tax inquiries | `sources/tax-customs-data`, `sources/tax-public-inquiries` |
 | Budget, public finance, municipal benchmarking | `sources/public-finance-data`, `sources/local-government-finance-benchmarks` |
 | Health stats, medicines, health supervision | `sources/health-statistics`, `sources/medicines-register`, `sources/health-supervision-decisions` |
+| Health insurance financing and service volumes | `sources/health-insurance-fund-reports` |
+| Medicines market and regulatory annual statistics | `sources/medicines-agency-statistics` |
 | Welfare and unemployment | `sources/social-insurance-statistics`, `sources/unemployment-statistics`, `sources/health-welfare-open-data` |
 | Environment, permits, weather | `sources/environmental-data`, `sources/environmental-permit-decisions`, `sources/weather-data` |
+| Forestry register records | `sources/forest-register` |
 | Planning, construction, cadaster/geospatial | `sources/planning-decisions`, `sources/construction-register`, `sources/geospatial-open-data` |
 | Transport/traffic and energy system operations | `sources/transport-traffic-data`, `sources/energy-data` |
+| Vehicle, aircraft, ship, and port registry checks | `sources/vehicle-background-check`, `sources/aircraft-register`, `sources/ship-registers`, `sources/state-port-register`, `sources/e-ship-register-rik` |
+| Aviation safety occurrence reporting | `sources/aviation-occurrence-reporting` |
 | Cyber incidents and digital government operations | `sources/cyber-incidents-cert-ee`, `sources/public-sector-it-systems-riha`, `sources/x-road-usage-statistics`, `sources/digital-government-studies` |
+| Labour inspection statistics and enforcement | `sources/labour-inspectorate-statistics`, `sources/labour-inspectorate-enforcement` |
 | Municipal operations (Tallinn/Tartu/VOLIS) | `sources/local-council-volis`, `sources/tallinn-open-data`, `sources/tallinn-legal-acts-register`, `sources/tallinn-council-documents`, `sources/tartu-open-data`, `sources/tartu-webaktid`, `sources/tartu-document-register` |
 | Elections and political process outcomes | `sources/election-results-data` |
 | Cultural heritage / monuments | `sources/cultural-heritage-register` |
@@ -41,6 +49,10 @@ Purpose: pick the right official source skill quickly.
 | State services catalog and public-service delivery | `sources/state-services-catalog` |
 | Interest declarations / anti-corruption declaration process | `sources/officials-interest-declarations` |
 | Rescue incidents and emergency operations | `sources/rescue-incident-data` |
+| Migration governance and vital-statistics procedures | `sources/migration-management`, `sources/vital-statistics-procedures` |
+| Civil-status and succession property registries | `sources/marital-property-register`, `sources/succession-register` |
+| Crime-policy statistical studies | `sources/crime-policy-statistics` |
+| Animal-keeper registration process | `sources/animal-keeper-registering` |
 
 ## Routing notes
 

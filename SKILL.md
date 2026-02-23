@@ -46,6 +46,16 @@ description: Get evidence-based answers about Estonian government operations, de
   `sources/local-council-volis`, `sources/tallinn-open-data`, `sources/tallinn-council-documents`, `sources/tartu-document-register`
 - Digital-state and service delivery context:
   `sources/public-sector-it-systems-riha`, `sources/state-services-catalog`, `sources/x-road-usage-statistics`, `sources/digital-government-studies`
+- Justice execution and registry operations:
+  `sources/e-file-statistics`, `sources/criminal-records-database`, `sources/prison-annual-reviews`, `sources/crime-policy-statistics`
+- Labour, population, and civil procedures:
+  `sources/labour-inspectorate-statistics`, `sources/labour-inspectorate-enforcement`, `sources/migration-management`, `sources/vital-statistics-procedures`
+- Civil and property-rights registries:
+  `sources/marital-property-register`, `sources/succession-register`, `sources/vehicle-background-check`, `sources/forest-register`
+- Transport, maritime, and aviation registries:
+  `sources/aircraft-register`, `sources/ship-registers`, `sources/state-port-register`, `sources/e-ship-register-rik`, `sources/aviation-occurrence-reporting`
+- Health financing and medicine-system reporting:
+  `sources/health-insurance-fund-reports`, `sources/medicines-agency-statistics`, `sources/animal-keeper-registering`
 
 ## Detailed map
 - Use `SOURCE_MAP.md` for fast source selection by user intent and keyword.
