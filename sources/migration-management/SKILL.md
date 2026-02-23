@@ -20,6 +20,7 @@ description: Use Ministry of Interior migration management pages for official po
 
 ## Primary endpoints
 - Migration area: https://www.siseministeerium.ee/en/activities/efficient-population-management/migration
+- Population management context: https://www.siseministeerium.ee/en/activities/efficient-population-management
 
 ## Workflow
 1. Identify relevant migration policy/process materials.

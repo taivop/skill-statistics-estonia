@@ -21,12 +21,15 @@ description: Query Estonia Land Register (Kinnistusraamat) public views for prop
 
 ## Primary endpoints
 - Main portal: https://kinnistusraamat.rik.ee/
+- Immovables portal context: https://www.rik.ee/en/e-land-register/immovables-portal
+- E-land register XML service context: https://www.rik.ee/en/e-land-register/e-land-register-portal/xml-service
 
 ## Workflow
 1. Identify search key (address, cadastral unit, or registry code).
 2. Retrieve available public record views and document-level metadata.
-3. Normalize party names, rights, and encumbrance categories.
-4. Return a structured extract with legal-context caveats.
+3. If relevant, use immovables/XML service routes to improve extraction consistency.
+4. Normalize party names, rights, and encumbrance categories.
+5. Return a structured extract with legal-context caveats.
 
 ## Human setup (when needed)
 - If lookup requires interactive captcha, session validation, or paid document retrieval, guide the user step-by-step through the portal and continue from files/screenshots they provide.

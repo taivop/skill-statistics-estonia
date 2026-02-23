@@ -20,10 +20,12 @@ description: Use RIK criminal records database public consultation pages for rec
 
 ## Primary endpoints
 - Data consultation: https://www.rik.ee/en/criminal-records-database/data-consultation
+- Issuing notices in database: https://www.rik.ee/en/criminal-records-database/issuing-notices-database
+- Legal persons route: https://www.rik.ee/en/criminal-records-database/legal-persons
 
 ## Workflow
 1. Determine what lookup/output is publicly allowed.
-2. Run available consultation flow or parse published rules.
+2. Run available consultation or issuing-notices/legal-persons flow as applicable.
 3. Extract structured fields and identifiers.
 4. Return results with access-scope caveats.
 

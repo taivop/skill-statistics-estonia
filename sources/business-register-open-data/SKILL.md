@@ -22,12 +22,17 @@ description: Use Estonian Business Register open data downloads for legal-entity
 ## Primary endpoints
 - Open data page: https://avaandmed.ariregister.rik.ee/en/downloading-open-data
 - Related documentation: https://abiinfo.rik.ee/en/e-business-register-queries/open-data-e-business-register
+- Annual reports context: https://www.rik.ee/en/e-business-register/annual-report
+- Contract information: https://www.rik.ee/en/e-business-register/contract-information
+- Company registration API: https://www.rik.ee/en/e-business-register/company-registration-api
+- Beneficial owners query guidance: https://abiinfo.rik.ee/en/e-business-register-queries/beneficial-owners
 
 ## Workflow
 1. Select correct extract type and snapshot period.
 2. Download file(s) and inspect schema/encoding.
-3. Normalize identifiers and status fields.
-4. Return cleaned table with source timestamp.
+3. If needed, enrich with annual-report/contract/API and beneficial-owner reference flows.
+4. Normalize identifiers and status fields.
+5. Return cleaned table with source timestamp.
 
 ## Human setup (when needed)
 - If download links are session-protected or UI-generated, guide user through the exact download flow and proceed with local files they provide.
@@ -35,3 +40,4 @@ description: Use Estonian Business Register open data downloads for legal-entity
 ## Quality checks
 - Preserve original business identifiers.
 - Keep snapshot date and provenance in output metadata.
+- Keep beneficial-owner fields and legal-entity fields clearly separated.

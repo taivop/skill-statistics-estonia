@@ -23,7 +23,7 @@ description: Use state port register sources for official port registry informat
 - State port register system: https://www.sadamaregister.ee/
 
 ## Workflow
-1. Identify applicable port register entry/listing.
+1. Identify applicable port register entry/listing (policy page or `sadamaregister.ee`).
 2. Extract core port fields and statuses.
 3. Normalize port naming and location fields.
 4. Return structured registry dataset.
