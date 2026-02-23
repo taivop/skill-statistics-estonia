@@ -1,16 +1,21 @@
 ---
 name: estonia-government-public-sources
-description: Route Estonia public/official governance questions to the right source skill under sources/ using a high-level index and source map.
+description: Get evidence-based answers about Estonian government operations, decisions, spending, registries, and oversight by quickly selecting the right official source skill.
 ---
 
 # Estonia Government Public Sources
 
 ## Use when
-- You need to find which official Estonian source to use for a governance, legal, policy, operations, finance, registry, or municipal question.
-- You need to route quickly to the correct source-specific skill in `sources/`.
+- You need fast, evidence-backed answers about how Estonian government operates or has operated.
+- You need to identify the right official source for governance, legal, policy, spending, registry, oversight, or municipal questions.
 
 ## Avoid when
 - You already know the exact source skill and can open it directly.
+
+## What the user gets
+- A fast path to the best official source for the question.
+- Source-specific workflows that produce structured, traceable outputs.
+- Manual fallback guidance when a source needs user interaction (login/export/captcha), then continued automated analysis from user-provided files.
 
 ## Routing workflow
 1. Classify the user request (parliament, government operations, justice, business/asset registry, finance, municipal, etc.).
@@ -20,27 +25,27 @@ description: Route Estonia public/official governance questions to the right sou
 
 ## High-Level Index
 - Core national statistics and macro context:
-  `sources/querying-statistics-estonia-api`, `sources/querying-bank-of-estonia-statistics`, `sources/querying-estonia-public-finance-data`, `sources/querying-estonia-tax-customs-data`
+  `sources/querying-statistics-estonia-api`, `sources/querying-bank-of-estonia-statistics`, `sources/analyzing-estonia-public-finance-data`, `sources/querying-tax-customs-data`
 - Parliament, lawmaking, and legal texts:
-  `sources/querying-riigikogu-open-data`, `sources/tracking-riigikogu-draft-laws`, `sources/tracking-estonia-legislation-workflow-eis`, `sources/querying-estonia-legal-acts-data`
+  `sources/querying-riigikogu-open-data`, `sources/tracking-riigikogu-draft-laws`, `sources/tracking-estonia-legislation-workflow-eis`, `sources/querying-legal-acts-data`
 - Government operations and transparency records:
-  `sources/querying-estonia-ministry-document-registries`, `sources/querying-estonia-government-office-document-register`, `sources/tracking-estonia-lobby-meetings`, `sources/querying-estonia-official-notices`
+  `sources/querying-ministry-document-registries`, `sources/querying-government-office-document-register`, `sources/tracking-estonia-lobby-meetings`, `sources/querying-official-notices`
 - Oversight, supervision, and enforcement:
-  `sources/querying-estonia-state-audit-reports`, `sources/querying-estonia-ombudsman-opinions`, `sources/querying-estonia-financial-supervision-decisions`, `sources/querying-estonia-data-protection-enforcement`
+  `sources/querying-state-audit-reports`, `sources/querying-ombudsman-opinions`, `sources/querying-financial-supervision-decisions`, `sources/querying-data-protection-enforcement`
 - Registries, ownership, and organization context:
-  `sources/using-estonia-business-register-open-data`, `sources/querying-estonia-land-register-kinnistusraamat`, `sources/querying-estonia-economic-activities-register-mtr`, `sources/querying-estonia-state-ownership-data`
+  `sources/using-estonia-business-register-open-data`, `sources/querying-land-register-kinnistusraamat`, `sources/querying-economic-activities-register-mtr`, `sources/querying-state-ownership-data`
 - Public spending, subsidies, and projects:
-  `sources/analyzing-estonia-procurement-data`, `sources/querying-estonia-party-funding-data`, `sources/querying-estonia-agricultural-subsidies-pria`, `sources/querying-estonia-eu-funded-projects`
+  `sources/analyzing-estonia-procurement-data`, `sources/querying-party-funding-data`, `sources/querying-agricultural-subsidies-pria`, `sources/querying-eu-funded-projects`
 - Justice and internal security operations:
-  `sources/querying-estonia-court-proceedings-data`, `sources/querying-estonia-court-system-statistics`, `sources/querying-estonia-prosecution-statistics`, `sources/querying-estonia-police-operational-statistics`
+  `sources/querying-court-proceedings-data`, `sources/querying-court-system-statistics`, `sources/querying-prosecution-statistics`, `sources/querying-police-operational-statistics`
 - Health, welfare, and labor operations:
-  `sources/querying-estonia-health-statistics`, `sources/querying-estonia-health-supervision-decisions`, `sources/querying-estonia-social-insurance-statistics`, `sources/querying-estonia-unemployment-statistics`
+  `sources/querying-health-statistics`, `sources/querying-health-supervision-decisions`, `sources/querying-social-insurance-statistics`, `sources/querying-unemployment-statistics`
 - Spatial, environment, and infrastructure:
-  `sources/using-estonia-geospatial-open-data`, `sources/querying-estonia-planning-decisions`, `sources/querying-estonia-construction-register`, `sources/querying-estonia-transport-traffic-data`
+  `sources/using-estonia-geospatial-open-data`, `sources/querying-planning-decisions`, `sources/querying-construction-register`, `sources/querying-transport-traffic-data`
 - Municipal and local-government sources:
-  `sources/querying-estonia-local-council-volis`, `sources/querying-tallinn-open-data`, `sources/querying-tallinn-council-documents`, `sources/querying-tartu-document-register`
+  `sources/querying-local-council-volis`, `sources/querying-tallinn-open-data`, `sources/querying-tallinn-council-documents`, `sources/querying-tartu-document-register`
 - Digital-state and service delivery context:
-  `sources/querying-estonia-public-sector-it-systems-riha`, `sources/querying-estonia-state-services-catalog`, `sources/querying-estonia-x-road-usage-statistics`, `sources/querying-estonia-digital-government-studies`
+  `sources/querying-public-sector-it-systems-riha`, `sources/querying-state-services-catalog`, `sources/querying-x-road-usage-statistics`, `sources/querying-digital-government-studies`
 
 ## Detailed map
 - Use `SOURCE_MAP.md` for fast source selection by user intent and keyword.
