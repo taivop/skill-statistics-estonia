@@ -25,27 +25,27 @@ description: Get evidence-based answers about Estonian government operations, de
 
 ## High-Level Index
 - Core national statistics and macro context:
-  `sources/querying-statistics-estonia-api`, `sources/querying-bank-of-estonia-statistics`, `sources/analyzing-estonia-public-finance-data`, `sources/querying-tax-customs-data`
+  `sources/statistics-api`, `sources/bank-of-statistics`, `sources/public-finance-data`, `sources/tax-customs-data`
 - Parliament, lawmaking, and legal texts:
-  `sources/querying-riigikogu-open-data`, `sources/tracking-riigikogu-draft-laws`, `sources/tracking-estonia-legislation-workflow-eis`, `sources/querying-legal-acts-data`
+  `sources/riigikogu-open-data`, `sources/riigikogu-draft-laws`, `sources/legislation-workflow-eis`, `sources/legal-acts-data`
 - Government operations and transparency records:
-  `sources/querying-ministry-document-registries`, `sources/querying-government-office-document-register`, `sources/tracking-estonia-lobby-meetings`, `sources/querying-official-notices`
+  `sources/ministry-document-registries`, `sources/government-office-document-register`, `sources/lobby-meetings`, `sources/official-notices`
 - Oversight, supervision, and enforcement:
-  `sources/querying-state-audit-reports`, `sources/querying-ombudsman-opinions`, `sources/querying-financial-supervision-decisions`, `sources/querying-data-protection-enforcement`
+  `sources/state-audit-reports`, `sources/ombudsman-opinions`, `sources/financial-supervision-decisions`, `sources/data-protection-enforcement`
 - Registries, ownership, and organization context:
-  `sources/using-estonia-business-register-open-data`, `sources/querying-land-register-kinnistusraamat`, `sources/querying-economic-activities-register-mtr`, `sources/querying-state-ownership-data`
+  `sources/business-register-open-data`, `sources/land-register-kinnistusraamat`, `sources/economic-activities-register-mtr`, `sources/state-ownership-data`
 - Public spending, subsidies, and projects:
-  `sources/analyzing-estonia-procurement-data`, `sources/querying-party-funding-data`, `sources/querying-agricultural-subsidies-pria`, `sources/querying-eu-funded-projects`
+  `sources/procurement-data`, `sources/party-funding-data`, `sources/agricultural-subsidies-pria`, `sources/eu-funded-projects`
 - Justice and internal security operations:
-  `sources/querying-court-proceedings-data`, `sources/querying-court-system-statistics`, `sources/querying-prosecution-statistics`, `sources/querying-police-operational-statistics`
+  `sources/court-proceedings-data`, `sources/court-system-statistics`, `sources/prosecution-statistics`, `sources/police-operational-statistics`
 - Health, welfare, and labor operations:
-  `sources/querying-health-statistics`, `sources/querying-health-supervision-decisions`, `sources/querying-social-insurance-statistics`, `sources/querying-unemployment-statistics`
+  `sources/health-statistics`, `sources/health-supervision-decisions`, `sources/social-insurance-statistics`, `sources/unemployment-statistics`
 - Spatial, environment, and infrastructure:
-  `sources/using-estonia-geospatial-open-data`, `sources/querying-planning-decisions`, `sources/querying-construction-register`, `sources/querying-transport-traffic-data`
+  `sources/geospatial-open-data`, `sources/planning-decisions`, `sources/construction-register`, `sources/transport-traffic-data`
 - Municipal and local-government sources:
-  `sources/querying-local-council-volis`, `sources/querying-tallinn-open-data`, `sources/querying-tallinn-council-documents`, `sources/querying-tartu-document-register`
+  `sources/local-council-volis`, `sources/tallinn-open-data`, `sources/tallinn-council-documents`, `sources/tartu-document-register`
 - Digital-state and service delivery context:
-  `sources/querying-public-sector-it-systems-riha`, `sources/querying-state-services-catalog`, `sources/querying-x-road-usage-statistics`, `sources/querying-digital-government-studies`
+  `sources/public-sector-it-systems-riha`, `sources/state-services-catalog`, `sources/x-road-usage-statistics`, `sources/digital-government-studies`
 
 ## Detailed map
 - Use `SOURCE_MAP.md` for fast source selection by user intent and keyword.
