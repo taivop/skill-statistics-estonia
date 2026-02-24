@@ -1,6 +1,6 @@
 # Project Agent Notes
 
-For overall project purpose and structure, read `/Users/taivo/repos/skill-statistics-estonia/README.md` first.
+For overall project purpose and structure, read `/Users/taivo/repos/public-agents/skills/.curated/estonia-public-sources/README.md` first.
 
 ## Source Inclusion Criteria
 

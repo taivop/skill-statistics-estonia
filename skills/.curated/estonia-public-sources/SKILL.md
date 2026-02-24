@@ -1,6 +1,13 @@
 ---
 name: estonia-government-public-sources
 description: Get evidence-based answers about Estonian government operations, decisions, spending, registries, and oversight by quickly selecting the right official source skill.
+metadata:
+  distribution:
+    tier: curated
+    publish_anthropic: true
+    plugin_name: estonia-public-sources
+    plugin_version: 1.0.0
+    plugin_author: Public Agents
 ---
 
 # Estonia Government Public Sources

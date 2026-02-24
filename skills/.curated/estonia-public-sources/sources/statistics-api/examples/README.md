@@ -20,7 +20,7 @@ The prompt used to run examples 01-05 was:
 ```
 You are analyzing Statistics Estonia data. For this analysis:
 
-1. Use the statistics-estonia skill (get_metadata.py script and API access). The skill is described in SKILL.md in /Users/taivo/repos/skill-statistics-estonia.
+1. Use the statistics-estonia skill (get_metadata.py script and API access). The skill is described in SKILL.md in /Users/taivo/repos/public-agents/skills/.curated/estonia-public-sources.
 2. Create comprehensive analysis in ANALYSIS.md including:
    - Executive summary
    - Data sources and methodology
