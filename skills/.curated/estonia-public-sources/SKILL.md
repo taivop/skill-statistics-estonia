@@ -7,7 +7,7 @@ metadata:
     publish_anthropic: true
     plugin_name: estonia-public-sources
     plugin_version: 1.0.0
-    plugin_author: Public Agents
+    plugin_author: Taivo Marketplace
 ---
 
 # Estonia Government Public Sources

@@ -1,23 +1,27 @@
-# Public Agents Marketplace
+# Taivo Agent Marketplace
 
-This repository is a dual-distribution marketplace for agent skills:
+A Git-based marketplace for reusable agent plugins and skills.
 
-1. Anthropic Claude Code plugins via `/.claude-plugin/marketplace.json`.
-2. Codex skills via Git path install from `skills/.curated/*`.
+This repo is the place to publish and maintain useful agent capabilities across domains, not only public-data workflows. Current content includes the Estonia public sources package; future packages can include things like self-coaching, productivity, research, engineering, and other reusable agent systems.
+
+## Distribution Targets
+
+Each package can be distributed through:
+
+1. Anthropic Claude Code plugin marketplace (`.claude-plugin/marketplace.json` + per-package plugin manifests).
+2. Codex skill install from Git paths under `skills/.curated` or `skills/.experimental`.
 
 ## Repository Layout
 
 ```text
 .
+├── AGENTS.md
 ├── .claude-plugin/
 │   └── marketplace.json
 ├── skills/
 │   ├── .curated/
-│   │   └── <skill-package>/
-│   │       ├── SKILL.md
-│   │       └── .claude-plugin/plugin.json
+│   │   └── <package>/
 │   └── .experimental/
-│       └── <skill-package>/
 ├── scripts/
 │   ├── generate_plugin_manifests.py
 │   ├── generate_marketplace.py
@@ -26,32 +30,41 @@ This repository is a dual-distribution marketplace for agent skills:
 └── .github/workflows/validate-distribution.yml
 ```
 
+## Current Packages
+
+1. `skills/.curated/estonia-public-sources`
+
+Planned/possible additions:
+
+1. `skill-self-coaching` (from [taivop/skill-self-coaching](https://github.com/taivop/skill-self-coaching))
+2. Additional domain packages as they are curated
+
 ## Install From Anthropic Marketplace
 
 ```bash
-claude plugin marketplace add <owner>/public-agents
-claude plugin install estonia-public-sources@public-agents
+claude plugin marketplace add taivop/marketplace
+claude plugin install estonia-public-sources@marketplace
 ```
 
 ## Install In Codex
 
-Use the Codex skill installer with a repo path:
-
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo <owner>/public-agents \
+  --repo taivop/marketplace \
   --path skills/.curated/estonia-public-sources
 ```
 
-## Publishing Workflow
+## Maintainer Workflow
 
-Run generators and validators:
+Use this sequence before committing:
 
 ```bash
 python3 scripts/generate_plugin_manifests.py
 python3 scripts/generate_marketplace.py
 python3 scripts/validate_codex_skills.py
 python3 scripts/validate_anthropic_plugins.py
+python3 scripts/generate_plugin_manifests.py --check
+python3 scripts/generate_marketplace.py --check
 ```
 
-CI enforces these checks and fails if generated files are out of date.
+See `AGENTS.md` for full operating rules.

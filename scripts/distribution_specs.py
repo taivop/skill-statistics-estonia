@@ -8,8 +8,8 @@ from typing import Any
 from skill_metadata import SkillPackage
 
 
-DEFAULT_MARKETPLACE_NAME = "public-agents"
-DEFAULT_MARKETPLACE_OWNER = "Public Agents"
+DEFAULT_MARKETPLACE_NAME = "marketplace"
+DEFAULT_MARKETPLACE_OWNER = "Taivo Marketplace"
 
 
 def plugin_manifest(pkg: SkillPackage) -> dict[str, Any]:
