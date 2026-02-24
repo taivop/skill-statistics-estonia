@@ -54,6 +54,7 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/bank-of-statistics`
 - `sources/border-management-operations`
 - `sources/business-register-open-data`
+- `sources/civil-service-pay-governance`
 - `sources/communicable-disease-bulletins`
 - `sources/competition-authority-decisions`
 - `sources/construction-register`
@@ -66,10 +67,13 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/cultural-heritage-register`
 - `sources/cyber-incidents-cert-ee`
 - `sources/data-protection-enforcement`
+- `sources/defence-policy-budget-documents`
+- `sources/defence-public-opinion-surveys`
 - `sources/digital-government-studies`
 - `sources/drone-operator-registration`
 - `sources/e-file-statistics`
 - `sources/e-notary`
+- `sources/e-residency-dashboard`
 - `sources/e-ship-register-rik`
 - `sources/economic-activities-register-mtr`
 - `sources/education-data`
@@ -78,6 +82,8 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/environmental-charge-statistics`
 - `sources/environmental-data`
 - `sources/environmental-permit-decisions`
+- `sources/estonia-2035-action-plan`
+- `sources/etis-research-information-system`
 - `sources/eu-funded-projects`
 - `sources/fairway-dues`
 - `sources/financial-supervision-decisions`
@@ -85,6 +91,7 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/food-supervision`
 - `sources/forest-register`
 - `sources/geospatial-open-data`
+- `sources/government-action-programme`
 - `sources/government-journal-records`
 - `sources/government-office-document-register`
 - `sources/government-session-agendas`
@@ -93,9 +100,12 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/health-supervision-decisions`
 - `sources/health-welfare-open-data`
 - `sources/healthcare-professionals-register`
+- `sources/internal-security-annual-reviews`
+- `sources/kultuurkapital-grants-data`
 - `sources/labour-inspectorate-enforcement`
 - `sources/labour-inspectorate-statistics`
 - `sources/land-register-kinnistusraamat`
+- `sources/language-law-supervision`
 - `sources/legal-acts-data`
 - `sources/legislation-workflow-eis`
 - `sources/lobby-meetings`
@@ -105,8 +115,11 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/maritime-economy-statistics`
 - `sources/medicines-agency-statistics`
 - `sources/medicines-register`
+- `sources/mfa-development-cooperation-aid`
+- `sources/mfa-sanctions`
 - `sources/migration-management`
 - `sources/ministry-document-registries`
+- `sources/muis-open-data`
 - `sources/national-archives-governance-records`
 - `sources/official-notices`
 - `sources/officials-interest-declarations`
@@ -118,6 +131,7 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/plant-protection-supervision`
 - `sources/police-operational-statistics`
 - `sources/political-party-membership`
+- `sources/president-decisions-decrees`
 - `sources/prison-annual-reviews`
 - `sources/procurement-data`
 - `sources/procurement-review`
@@ -127,6 +141,7 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/public-consultations-osale`
 - `sources/public-finance-data`
 - `sources/public-sector-it-systems-riha`
+- `sources/public-sector-statistics-fin`
 - `sources/rescue-incident-data`
 - `sources/riigikogu-agendas`
 - `sources/riigikogu-draft-laws`
@@ -142,6 +157,7 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/state-port-register`
 - `sources/state-services-catalog`
 - `sources/statistics-api`
+- `sources/strategic-development-documents-registry`
 - `sources/succession-register`
 - `sources/supreme-court-judgments`
 - `sources/tallinn-council-documents`
@@ -152,6 +168,7 @@ Sources include both APIs/datasets and official websites/registries.
 - `sources/tartu-webaktid`
 - `sources/tax-customs-data`
 - `sources/tax-public-inquiries`
+- `sources/tourism-information-system-dataset`
 - `sources/transport-traffic-data`
 - `sources/unemployment-statistics`
 - `sources/vaccination-statistics`

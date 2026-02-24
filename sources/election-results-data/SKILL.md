@@ -1,61 +1,64 @@
 ---
 name: election-results-data
-description: Analyze Estonian election archive and open election datasets from valimised.ee for turnout, vote shares, and historical election trends.
+description: Retrieve election outcome datasets and National Electoral Committee decision records from valimised.ee, with legal-reference linking to Riigi Teataja.
 ---
 
-# Estonia Election Results Data
+# Election Results and VVK Decisions
 
 ## Use when
-- You need historical election results, turnout, or e-voting statistics.
-- You need multi-election comparisons.
+- You need election results/open-data files.
+- You need National Electoral Committee (VVK) decision records and legal references.
 
 ## Avoid when
-- You need parliamentary voting records (use Riigikogu open data skill).
+- You need parliamentary voting behavior (use Riigikogu sources).
 
 ## Inputs
-- Election type, years, geography, and metric.
+- Election type/year.
+- Whether to include VVK decision records.
 
 ## Outputs
-- Election result dataset and harmonized comparison table.
+- Harmonized election dataset and/or VVK decision record list with legal links.
+
+## Access reality statement
+- Access type: `download files` + `UI copy-only`.
+- Verified on 2026-02-24.
+- Election open-data pages provide downloadable files; VVK decisions are presented as list/navigation pages.
 
 ## Primary endpoints
 - Main site: https://www.valimised.ee/en
 - Elections archive (ET): https://www.valimised.ee/et/toimunud-valimiste-arhiiv
 - Election open data (ET): https://www.valimised.ee/et/valimiste-arhiiv/valimiste-avaandmed
+- VVK decisions page: https://www.valimised.ee/et/korraldajad/vabariigi-valimiskomisjon/otsused
+- Riigi Teataja VVK decision query: https://www.riigiteataja.ee/algteksti_tulemused.html?doli=otsus&valj1=Vabariigi+Valimiskomisjon&kuvaKoik=true&sorteeri=kuupaev&kasvav=false
 
-## Workflow
-1. Choose election type and years from archive/open-data pages.
-2. Download available machine-readable files.
-3. Harmonize geography and party/candidate naming across years.
-4. Return trend-ready dataset with caveats.
+## Retrieval workflow (reproducible)
+1. For election outcomes, open open-data/archive pages and download machine-readable files for requested elections.
+2. Record election type, year, geography coding, and file version/date.
+3. For governance decisions, open VVK decisions page and collect decision links, titles, and dates.
+4. Cross-reference legal publication records with the Riigi Teataja filtered decision query.
+5. Return separate datasets for `results` and `vvk_decisions`, with explicit provenance.
 
-## Human setup (when needed)
-- If only Estonian-language navigation is available, walk user through the exact ET menu path and what file to download.
-
-## Quality checks
-- Keep election-type boundaries separate (EP, parliamentary, local, referendum).
-- Track boundary or constituency changes before trend comparisons.
-
-## Access reality
-- Public access type: UI page with direct downloadable files.
-- Verification run: 2026-02-24.
-- https://www.valimised.ee/en (HTTP 200, text/html;, file links detected: 0)
-- https://www.valimised.ee/et/toimunud-valimiste-arhiiv (HTTP 200, text/html;, file links detected: 0)
-- https://www.valimised.ee/et/valimiste-arhiiv/valimiste-avaandmed (HTTP 200, text/html;, file links detected: 7)
-
-## Request contract
-- Use the listed primary endpoints as authoritative entry points.
-- If API/query parameters are only visible in-browser, preserve exact request URL, params, and headers in output metadata.
-- If endpoint is UI-only, document click path and extraction method used.
+## Request/query contract
+- No auth required.
+- Election data extraction is file-based from published archive/open-data pages.
+- VVK decisions are list pages; fields are parsed from HTML anchors and surrounding metadata.
+- Riigi Teataja filtered query parameters are visible in URL (`doli`, `valj1`, `sorteeri`, `kasvav`).
 
 ## Output schema expectations
-- Keep at least: source URL, retrieval timestamp, publication/update date (if available), title/record label, and extracted governance-relevant fields.
-- Preserve original field names when present in downloadable/API output.
+- `dataset_type` (`results` or `vvk_decisions`)
+- `source_page_url`
+- `election_type`
+- `election_year`
+- `record_title`
+- `record_date`
+- `record_url`
+- `legal_reference_url` (when applicable)
 
 ## Limits and caveats
-- Confirm whether data is open-download, UI-only, or authenticated before claiming full access.
-- Separate narrative/guidance text from measurable records.
+- Navigation and labels are often Estonian-first.
+- Historic election files can differ in schema and territorial units.
+- Decision pages may prioritize human-readable summaries over structured tables.
 
 ## Verification hooks
-- Validate endpoint reachability and content type before extraction.
-- Validate that each extracted claim is linked to a concrete source URL.
+- Open-data page includes downloadable files (observed multiple direct file links).
+- VVK decisions page includes direct link to the Riigi Teataja filtered query for VVK decisions.

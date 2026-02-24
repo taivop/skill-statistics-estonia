@@ -1,62 +1,68 @@
 ---
 name: transport-traffic-data
-description: Retrieve Estonia transport and road traffic frequency data from Transport Administration sources for mobility and infrastructure analysis.
+description: Retrieve Estonian transport operations data from Transport Administration pages and national public transport APIs (Peatus GraphQL and related public endpoints).
 ---
 
-# Estonia Transport Traffic Data
+# Transport and Public Transit Data
 
 ## Use when
-- You need road traffic intensity/frequency indicators.
-- You need transport-side explanatory data for regional analysis.
+- You need transport operations data, especially public transit stops/routes and traffic context.
+- You need repeatable API-based extraction for national public transport routing data.
 
 ## Avoid when
-- You need only city-level municipal mobility datasets.
+- You only need municipal-only transport portals.
 
 ## Inputs
-- Road/network scope, location, and period.
+- Geography and period.
+- Entity scope (`stops`, `routes`, `patterns`, `traffic context`).
 
 ## Outputs
-- Traffic dataset extract and metadata on counting context.
+- Structured transit/traffic dataset with source endpoint metadata.
+
+## Access reality statement
+- Access type: `API` + `download files`/`UI copy-only`.
+- Verified on 2026-02-24.
+- Peatus GraphQL endpoint is queryable via POST JSON.
 
 ## Primary endpoints
-- Agency site: https://www.transpordiamet.ee/en
-- Traffic frequency page (ET): https://www.transpordiamet.ee/liiklussagedus
-- Traffic safety programme context: https://www.transpordiamet.ee/en/safety-and-supervision/traffic-safety/traffic-safety-programme-2016-2025
+- Peatus portal: https://www.peatus.ee/
+- Peatus GraphQL endpoint: https://api.peatus.ee/routing/v1/routers/estonia/index/graphql
+- Peatus public notifications API: https://web.peatus.ee/admin/api/public/notifications
+- Transport Administration main site: https://www.transpordiamet.ee/en
+- Traffic frequency page: https://www.transpordiamet.ee/liiklussagedus
 
-## Workflow
-1. Open traffic frequency resources and identify the relevant table/map export.
-2. Use traffic safety programme indicators when policy-level context is requested.
-3. Download available files and parse location identifiers.
-4. Normalize units and temporal aggregation.
-5. Return cleaned data with source mapping.
+## Retrieval workflow (reproducible)
+1. For public transit entities, send POST requests to Peatus GraphQL endpoint.
+2. Start with schema sanity query (`{__typename}`), then run scoped queries (`stops`, `routes`, etc.).
+3. For operational notices, fetch JSON from notifications endpoint.
+4. For road traffic context, collect files or published tables from Transport Administration pages.
+5. Return parsed records with original query text and response timestamp.
 
-## Human setup (when needed)
-- If data is published only via interactive map/UI, provide exact user steps to export/download, then continue automatically from supplied files.
-
-## Quality checks
-- Preserve road segment/site IDs.
-- Distinguish annual average vs point-in-time measurements.
-
-## Access reality
-- Public access type: UI page with direct downloadable files.
-- Verification run: 2026-02-24.
-- https://www.transpordiamet.ee/en (HTTP 200, text/html;, file links detected: 1)
-- https://www.transpordiamet.ee/liiklussagedus (HTTP 200, text/html;, file links detected: 3)
-- https://www.transpordiamet.ee/en/safety-and-supervision/traffic-safety/traffic-safety-programme-2016-2025 (HTTP 200, text/html;, file links detected: 2)
-
-## Request contract
-- Use the listed primary endpoints as authoritative entry points.
-- If API/query parameters are only visible in-browser, preserve exact request URL, params, and headers in output metadata.
-- If endpoint is UI-only, document click path and extraction method used.
+## Request/query contract
+- Peatus GraphQL requires:
+  - Method: `POST`
+  - Header: `Content-Type: application/json`
+  - Body: `{"query":"...GraphQL..."}`
+- GET on GraphQL endpoint can return server error; use POST.
+- Notifications endpoint returns JSON without authentication.
 
 ## Output schema expectations
-- Keep at least: source URL, retrieval timestamp, publication/update date (if available), title/record label, and extracted governance-relevant fields.
-- Preserve original field names when present in downloadable/API output.
+- `source_system` (`peatus_graphql`, `peatus_notifications`, `transpordiamet`)
+- `query` (for GraphQL extractions)
+- `entity_type`
+- `gtfsId` (if present)
+- `name`
+- `lat`/`lon` (if present)
+- `mode` (if present)
+- `published_at` (for notifications)
+- `source_url`
 
 ## Limits and caveats
-- Confirm whether data is open-download, UI-only, or authenticated before claiming full access.
-- Separate narrative/guidance text from measurable records.
+- GraphQL schema can evolve; always include query used.
+- Some transport context pages are ET-only and UI-centric.
+- API responses can be large; paginate/scope queries where possible.
 
 ## Verification hooks
-- Validate endpoint reachability and content type before extraction.
-- Validate that each extracted claim is linked to a concrete source URL.
+- POST `{"query":"{__typename}"}` returns `{"data":{"__typename":"QueryType"}}`.
+- Query `stops(name:"Tallinn"){name gtfsId lat lon}` returns structured stop records.
+- `https://web.peatus.ee/admin/api/public/notifications` returns `application/json`.

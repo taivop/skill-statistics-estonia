@@ -10,8 +10,12 @@ Purpose: pick the right official source skill quickly.
 | Parliament votes, MPs, sittings | `sources/riigikogu-open-data` |
 | Draft law lifecycle and ministry coordination | `sources/legislation-workflow-eis`, `sources/riigikogu-draft-laws`, `sources/riigiteataja-draft-acts` |
 | Final laws and legal texts | `sources/legal-acts-data` |
+| President decisions and decrees | `sources/president-decisions-decrees` |
 | Cabinet/government meeting agendas | `sources/government-session-agendas` |
 | Government document trails and registries | `sources/ministry-document-registries`, `sources/government-office-document-register`, `sources/government-journal-records` |
+| Government action programme tracking | `sources/government-action-programme` |
+| Estonia 2035 action plan updates | `sources/estonia-2035-action-plan` |
+| Registry of active strategic development documents | `sources/strategic-development-documents-registry` |
 | Lobbying transparency | `sources/lobby-meetings` |
 | Public consultations and participation windows | `sources/public-consultations-osale`, `sources/public-consultations-feed` |
 | Procurement/tenders/contracts | `sources/procurement-data` |
@@ -27,9 +31,13 @@ Purpose: pick the right official source skill quickly.
 | Property rights / land register | `sources/land-register-kinnistusraamat` |
 | Licensed economic activity (MTR) | `sources/economic-activities-register-mtr` |
 | State aid / state assets / state ownership | `sources/state-aid-register`, `sources/state-assets-register`, `sources/state-ownership-data` |
+| State real-estate register open data (RKVR) | `sources/state-assets-register` |
 | Agriculture support recipients / EU funded projects | `sources/agricultural-subsidies-pria`, `sources/eu-funded-projects` |
 | Taxes and public tax inquiries | `sources/tax-customs-data`, `sources/tax-public-inquiries` |
 | Budget, public finance, municipal benchmarking | `sources/public-finance-data`, `sources/local-government-finance-benchmarks` |
+| State budget strategy (RES), annual budget packages, liabilities, investor relations, consolidated accounting | `sources/public-finance-data` |
+| Public-sector workforce/admin statistics | `sources/public-sector-statistics-fin` |
+| Civil-service pay governance and salary disclosure templates | `sources/civil-service-pay-governance` |
 | Health stats, medicines, health supervision | `sources/health-statistics`, `sources/medicines-register`, `sources/health-supervision-decisions` |
 | Communicable disease bulletins and vaccination monitoring | `sources/communicable-disease-bulletins`, `sources/vaccination-statistics` |
 | Healthcare professional registration context | `sources/healthcare-professionals-register` |
@@ -41,29 +49,43 @@ Purpose: pick the right official source skill quickly.
 | Forestry register records | `sources/forest-register` |
 | Planning, construction, cadaster/geospatial | `sources/planning-decisions`, `sources/construction-register`, `sources/geospatial-open-data` |
 | Transport/traffic and energy system operations | `sources/transport-traffic-data`, `sources/energy-data` |
+| National public transport routes/stops and Peatus API | `sources/transport-traffic-data` |
 | Vehicle, aircraft, ship, and port registry checks | `sources/vehicle-background-check`, `sources/aircraft-register`, `sources/ship-registers`, `sources/state-port-register`, `sources/e-ship-register-rik` |
 | Aviation safety occurrence reporting | `sources/aviation-occurrence-reporting` |
 | Aviation safety reports and drone operator registration | `sources/aviation-safety-reports`, `sources/drone-operator-registration` |
 | Maritime economy indicators and fairway dues | `sources/maritime-economy-statistics`, `sources/fairway-dues` |
 | Cyber incidents and digital government operations | `sources/cyber-incidents-cert-ee`, `sources/public-sector-it-systems-riha`, `sources/x-road-usage-statistics`, `sources/digital-government-studies` |
+| e-Residency operational dashboard metrics | `sources/e-residency-dashboard` |
 | Labour inspection statistics and enforcement | `sources/labour-inspectorate-statistics`, `sources/labour-inspectorate-enforcement` |
 | Labour dispute committee process and outcomes context | `sources/work-dispute-committee` |
 | Municipal operations (Tallinn/Tartu/VOLIS) | `sources/local-council-volis`, `sources/tallinn-open-data`, `sources/tallinn-legal-acts-register`, `sources/tallinn-council-documents`, `sources/tartu-open-data`, `sources/tartu-webaktid`, `sources/tartu-document-register` |
 | Elections and political process outcomes | `sources/election-results-data` |
+| National Electoral Committee (VVK) decisions | `sources/election-results-data` |
 | Cultural heritage / monuments | `sources/cultural-heritage-register` |
+| Museum collections and objects (MuIS RDF) | `sources/muis-open-data` |
+| Cultural grants and allocation rounds | `sources/kultuurkapital-grants-data` |
 | Historical governance archives | `sources/national-archives-governance-records` |
+| Internal security annual reviews (KAPO) | `sources/internal-security-annual-reviews` |
 | Consumer, competition, data-protection, financial supervision enforcement | `sources/consumer-technical-regulator-decisions`, `sources/competition-authority-decisions`, `sources/data-protection-enforcement`, `sources/financial-supervision-decisions` |
 | State services catalog and public-service delivery | `sources/state-services-catalog` |
 | Interest declarations / anti-corruption declaration process | `sources/officials-interest-declarations` |
 | Rescue incidents and emergency operations | `sources/rescue-incident-data` |
 | Migration governance and vital-statistics procedures | `sources/migration-management`, `sources/vital-statistics-procedures` |
 | Border operations governance | `sources/border-management-operations` |
+| Language-law supervision and annual activity reports | `sources/language-law-supervision` |
 | Civil-status and succession property registries | `sources/marital-property-register`, `sources/succession-register` |
 | Notarial and court system service context | `sources/e-notary`, `sources/court-information-system` |
 | Patent and trademark registers | `sources/patent-and-trademark-registers` |
 | Crime-policy statistical studies | `sources/crime-policy-statistics` |
+| Education registries and EHIS extracts | `sources/education-data` |
+| Research projects/publications/institutions (ETIS) | `sources/etis-research-information-system` |
 | Animal-keeper registration process | `sources/animal-keeper-registering` |
 | Food and plant supervision operations | `sources/food-supervision`, `sources/food-business-approvals`, `sources/plant-protection-supervision`, `sources/animal-disease-control` |
+| MFA development cooperation and humanitarian aid records | `sources/mfa-development-cooperation-aid` |
+| MFA sanctions implementation and sanctions backend endpoint | `sources/mfa-sanctions` |
+| Defence public-opinion surveys | `sources/defence-public-opinion-surveys` |
+| Defence policy/legal baseline and defence budget documents | `sources/defence-policy-budget-documents` |
+| Tourism information system dataset (andmed.eesti.ee) | `sources/tourism-information-system-dataset` |
 
 ## Routing notes
 
