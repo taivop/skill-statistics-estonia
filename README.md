@@ -44,7 +44,6 @@ Sources include both APIs/datasets and official websites/registries.
 
 ## Source Index
 
-- `sources/abis-governance`
 - `sources/agricultural-subsidies-pria`
 - `sources/aircraft-register`
 - `sources/animal-disease-control`
