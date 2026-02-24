@@ -62,8 +62,8 @@ description: Get evidence-based answers about Estonian government operations, de
   `sources/communicable-disease-bulletins`, `sources/vaccination-statistics`, `sources/healthcare-professionals-register`
 - Food, plant, and environmental supervision:
   `sources/food-supervision`, `sources/food-business-approvals`, `sources/plant-protection-supervision`, `sources/animal-disease-control`, `sources/environmental-charge-statistics`
-- Border, biometric, and migration governance:
-  `sources/border-management-operations`, `sources/abis-governance`, `sources/migration-management`, `sources/vital-statistics-procedures`
+- Border and migration governance:
+  `sources/border-management-operations`, `sources/migration-management`, `sources/vital-statistics-procedures`
 - Maritime, aviation, and transport regulation detail:
   `sources/maritime-economy-statistics`, `sources/fairway-dues`, `sources/drone-operator-registration`, `sources/aviation-safety-reports`
 - Civil justice and legal service systems:

@@ -57,7 +57,7 @@ Purpose: pick the right official source skill quickly.
 | Interest declarations / anti-corruption declaration process | `sources/officials-interest-declarations` |
 | Rescue incidents and emergency operations | `sources/rescue-incident-data` |
 | Migration governance and vital-statistics procedures | `sources/migration-management`, `sources/vital-statistics-procedures` |
-| Border operations and ABIS governance | `sources/border-management-operations`, `sources/abis-governance` |
+| Border operations governance | `sources/border-management-operations` |
 | Civil-status and succession property registries | `sources/marital-property-register`, `sources/succession-register` |
 | Notarial and court system service context | `sources/e-notary`, `sources/court-information-system` |
 | Patent and trademark registers | `sources/patent-and-trademark-registers` |
